@@ -1,0 +1,18 @@
+== J48 (arbol C4.5) ==
+                 pred_Sin riesgo  pred_Moderado  pred_Alto
+real_Sin riesgo              453            132         15
+real_Moderado                110            197         77
+real_Alto                      7             88        121
+
+== Random Forest ==
+                 pred_Sin riesgo  pred_Moderado  pred_Alto
+real_Sin riesgo              542             58          0
+real_Moderado                121            239         24
+real_Alto                     10             94        112
+
+== Naive Bayes ==
+                 pred_Sin riesgo  pred_Moderado  pred_Alto
+real_Sin riesgo              516             79          5
+real_Moderado                125            218         41
+real_Alto                      2            100        114
+

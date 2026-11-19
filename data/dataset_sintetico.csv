@@ -1,0 +1,1201 @@
+edad,sexo,estrato,ocupacion,horas_sueno,actividad_fisica,pantalla_horas,sustancias,estres_percibido,apoyo_social,eventos_vitales,antecedentes_familiares,atencion_previa,riesgo
+19,Masculino,3,Empleado,7.4,Baja,9.6,Frecuente,17,4.3,2,Si,No,Alto
+31,Femenino,3,Independiente,6.7,Alta,6.6,Ninguno,24,2.4,1,No,No,Moderado
+29,Masculino,4,Independiente,6.8,Baja,5.9,Ninguno,22,7.4,0,No,No,Sin riesgo
+25,Masculino,3,Desempleado,7.7,Baja,8.0,Ocasional,22,3.7,0,No,No,Moderado
+25,Masculino,1,Independiente,5.9,Baja,10.9,Ocasional,38,6.4,1,No,No,Alto
+33,Masculino,1,Estudiante,6.9,Baja,7.6,Ninguno,23,8.5,4,No,No,Moderado
+19,Masculino,3,Empleado,6.4,Alta,7.7,Ocasional,27,4.5,3,Si,Si,Alto
+30,Masculino,2,Estudiante,4.7,Media,6.6,Ocasional,17,5.4,1,No,No,Moderado
+21,Femenino,2,Estudiante,5.6,Baja,5.6,Ocasional,12,3.1,0,No,No,Sin riesgo
+19,Masculino,2,Desempleado,8.8,Media,6.1,Ocasional,17,5.1,3,Si,No,Moderado
+27,Masculino,4,Empleado,7.3,Baja,6.9,Ninguno,24,10.0,2,No,No,Sin riesgo
+35,Masculino,4,Desempleado,5.1,Baja,11.0,Ninguno,22,7.7,1,No,No,Moderado
+31,Femenino,3,Empleado,4.8,Baja,5.9,Ninguno,22,5.4,1,No,No,Moderado
+31,Masculino,2,Empleado,6.7,Media,6.6,Frecuente,17,4.7,0,No,No,Moderado
+30,Femenino,2,Empleado,8.8,Baja,4.3,Frecuente,16,5.9,3,No,Si,Moderado
+32,Femenino,3,Estudiante,6.6,Media,8.4,Ocasional,18,6.3,2,No,No,Sin riesgo
+27,Masculino,2,Estudiante,8.5,Baja,10.1,Ninguno,24,5.1,1,No,No,Moderado
+20,Masculino,3,Empleado,7.3,Media,10.7,Ninguno,25,7.2,4,No,Si,Moderado
+33,Masculino,3,Estudiante,7.4,Alta,7.0,Ninguno,12,3.9,2,No,Si,Sin riesgo
+26,Femenino,1,Desempleado,5.1,Baja,8.0,Ninguno,24,3.9,4,No,Si,Alto
+27,Masculino,1,Estudiante,8.0,Baja,6.1,Ninguno,14,6.8,1,No,Si,Sin riesgo
+24,Masculino,1,Estudiante,6.4,Alta,7.9,Ocasional,22,3.4,1,Si,Si,Moderado
+21,Masculino,5,Independiente,7.9,Media,7.3,Ninguno,18,7.6,4,No,Si,Sin riesgo
+34,Masculino,3,Estudiante,5.7,Media,6.7,Ocasional,30,6.0,4,Si,No,Alto
+32,Femenino,1,Desempleado,7.0,Baja,6.9,Frecuente,16,2.0,4,No,No,Alto
+29,Masculino,5,Independiente,7.3,Baja,7.7,Ocasional,20,6.2,3,No,No,Moderado
+25,Femenino,2,Estudiante,6.6,Media,5.7,Ninguno,23,2.3,1,Si,No,Alto
+32,Masculino,2,Empleado,7.3,Alta,5.9,Frecuente,13,7.5,0,No,No,Sin riesgo
+27,Femenino,5,Empleado,6.5,Baja,10.9,Ocasional,18,5.5,1,Si,No,Moderado
+25,Femenino,1,Independiente,6.0,Media,13.5,Ninguno,17,10.0,4,No,No,Sin riesgo
+26,Masculino,1,Independiente,8.9,Media,3.4,Ocasional,15,8.4,1,No,No,Sin riesgo
+22,Masculino,3,Independiente,8.2,Baja,3.2,Ocasional,16,3.7,2,No,No,Moderado
+19,Masculino,1,Empleado,5.8,Baja,4.0,Ninguno,27,1.6,4,No,No,Alto
+27,Masculino,3,Estudiante,7.5,Baja,6.2,Ninguno,15,4.3,5,Si,No,Alto
+33,Masculino,1,Empleado,5.8,Media,8.8,Ninguno,23,3.3,4,No,Si,Alto
+19,Femenino,1,Desempleado,5.3,Media,8.0,Ninguno,21,10.0,1,No,Si,Sin riesgo
+33,Femenino,1,Empleado,8.1,Media,6.9,Ocasional,9,6.0,1,Si,No,Sin riesgo
+32,Femenino,2,Empleado,4.6,Baja,7.9,Ninguno,23,8.1,5,No,Si,Alto
+22,Femenino,1,Empleado,8.0,Media,4.7,Ninguno,9,5.4,0,Si,Si,Sin riesgo
+29,Femenino,1,Independiente,6.5,Media,5.9,Ninguno,23,5.6,0,No,Si,Sin riesgo
+20,Masculino,4,Desempleado,6.5,Media,6.4,Ninguno,15,5.9,4,Si,No,Moderado
+31,Masculino,2,Estudiante,7.3,Media,2.4,Ninguno,19,8.4,2,No,No,Sin riesgo
+30,Masculino,2,Estudiante,7.6,Baja,3.5,Ocasional,10,6.7,1,Si,No,Sin riesgo
+24,Femenino,1,Empleado,5.7,Media,3.6,Ninguno,20,3.7,0,Si,No,Moderado
+19,Masculino,2,Empleado,7.7,Baja,8.5,Ninguno,25,9.6,1,No,No,Sin riesgo
+35,Masculino,2,Empleado,6.9,Baja,7.1,Ocasional,13,5.4,4,No,No,Moderado
+26,Masculino,3,Estudiante,5.2,Baja,8.1,Frecuente,15,5.0,2,Si,No,Alto
+34,Femenino,1,Empleado,6.6,Media,1.7,Ninguno,22,0.0,1,No,No,Alto
+30,Femenino,4,Empleado,8.6,Media,2.6,Ninguno,22,7.4,1,No,Si,Sin riesgo
+32,Masculino,5,Empleado,9.0,Baja,8.2,Ninguno,2,6.2,3,No,No,Sin riesgo
+31,Femenino,1,Empleado,7.7,Alta,1.0,Ninguno,33,6.2,4,No,Si,Moderado
+21,Femenino,1,Independiente,5.3,Alta,9.7,Ninguno,23,5.1,1,No,No,Moderado
+24,Femenino,1,Empleado,7.4,Baja,1.8,Frecuente,24,4.7,2,No,No,Moderado
+26,Masculino,3,Independiente,7.9,Media,8.7,Ocasional,18,5.2,0,No,No,Moderado
+26,Masculino,1,Empleado,7.7,Baja,4.2,Ninguno,6,7.0,1,No,Si,Sin riesgo
+18,Femenino,4,Empleado,7.8,Alta,9.2,Frecuente,24,7.4,0,No,No,Moderado
+27,Femenino,4,Empleado,7.3,Baja,14.0,Ninguno,15,5.5,1,No,No,Sin riesgo
+20,Masculino,4,Estudiante,6.7,Baja,1.0,Ninguno,23,8.1,1,No,No,Sin riesgo
+31,Masculino,3,Estudiante,6.0,Media,8.3,Ninguno,17,5.8,1,No,No,Sin riesgo
+30,Masculino,6,Empleado,4.3,Baja,1.8,Ninguno,21,4.9,0,No,No,Moderado
+34,Femenino,1,Independiente,7.2,Media,7.6,Frecuente,14,6.4,0,No,No,Sin riesgo
+31,Masculino,2,Empleado,7.0,Media,6.0,Ninguno,25,3.0,0,No,Si,Sin riesgo
+24,Femenino,2,Estudiante,7.5,Baja,6.8,Ocasional,11,6.5,2,No,No,Sin riesgo
+35,Masculino,5,Empleado,5.1,Media,4.1,Ninguno,35,2.6,0,No,No,Alto
+25,Femenino,3,Estudiante,7.6,Alta,8.5,Frecuente,35,3.7,0,Si,No,Alto
+23,Femenino,4,Independiente,9.5,Alta,2.7,Ocasional,30,1.6,5,Si,No,Alto
+34,Femenino,1,Independiente,6.9,Media,9.7,Ninguno,28,5.6,0,Si,No,Moderado
+24,Femenino,6,Empleado,6.7,Baja,5.4,Ninguno,18,9.5,3,Si,No,Sin riesgo
+19,Masculino,2,Empleado,7.2,Baja,2.9,Frecuente,27,5.7,2,No,No,Alto
+26,Femenino,2,Estudiante,9.4,Alta,10.6,Ninguno,18,7.4,2,Si,No,Moderado
+32,Femenino,6,Empleado,5.5,Media,6.3,Ninguno,8,10.0,1,Si,No,Sin riesgo
+21,Femenino,2,Independiente,7.1,Media,11.5,Ocasional,30,6.9,0,No,Si,Moderado
+26,Masculino,2,Independiente,5.8,Alta,9.7,Ninguno,27,4.3,3,Si,Si,Alto
+20,Masculino,3,Empleado,6.1,Baja,4.4,Ninguno,19,4.6,3,Si,No,Alto
+30,Masculino,1,Estudiante,6.7,Media,6.3,Ninguno,10,6.0,1,Si,Si,Sin riesgo
+26,Masculino,2,Estudiante,8.6,Baja,6.8,Ninguno,15,4.6,2,Si,No,Moderado
+23,Masculino,1,Estudiante,9.1,Baja,10.5,Ninguno,6,4.8,1,No,No,Sin riesgo
+22,Masculino,1,Estudiante,7.4,Media,7.6,Ninguno,26,8.2,4,No,Si,Sin riesgo
+28,Femenino,4,Estudiante,6.3,Baja,7.0,Ninguno,8,8.3,3,No,No,Sin riesgo
+30,Masculino,3,Desempleado,10.0,Alta,6.0,Ninguno,21,2.4,0,No,No,Moderado
+34,Masculino,2,Empleado,6.2,Baja,6.4,Ninguno,13,4.2,3,No,No,Sin riesgo
+25,Masculino,2,Estudiante,6.1,Alta,9.9,Frecuente,9,5.0,4,No,No,Moderado
+20,Femenino,2,Estudiante,4.5,Media,6.5,Ninguno,21,7.3,2,No,Si,Moderado
+32,Masculino,3,Estudiante,8.6,Media,5.5,Ninguno,17,8.5,0,No,No,Sin riesgo
+29,Femenino,5,Independiente,8.1,Alta,5.0,Ninguno,25,10.0,3,No,Si,Sin riesgo
+30,Femenino,5,Estudiante,9.9,Media,5.1,Ocasional,10,5.0,2,No,No,Sin riesgo
+19,Masculino,2,Independiente,5.0,Baja,2.9,Ninguno,14,5.1,1,No,Si,Moderado
+23,Femenino,2,Independiente,8.7,Baja,4.5,Ninguno,2,7.3,3,Si,Si,Sin riesgo
+31,Femenino,2,Estudiante,6.9,Baja,10.4,Ocasional,4,4.5,1,No,No,Sin riesgo
+32,Masculino,3,Empleado,7.8,Alta,6.0,Ninguno,32,5.7,3,Si,No,Alto
+25,Femenino,2,Desempleado,4.7,Media,8.3,Ocasional,34,5.1,2,No,No,Alto
+32,Masculino,3,Empleado,8.7,Baja,1.0,Frecuente,20,0.2,0,No,No,Alto
+33,Femenino,3,Estudiante,7.8,Baja,8.0,Ocasional,13,6.3,5,No,No,Moderado
+24,Femenino,2,Desempleado,6.7,Media,6.1,Ninguno,17,5.6,1,Si,No,Sin riesgo
+34,Masculino,2,Desempleado,7.6,Media,5.2,Ninguno,25,8.8,1,No,No,Sin riesgo
+23,Masculino,2,Empleado,5.8,Baja,7.0,Ninguno,15,6.0,1,No,No,Sin riesgo
+22,Femenino,1,Empleado,6.0,Media,5.2,Ocasional,21,3.2,0,No,No,Moderado
+30,Masculino,1,Estudiante,6.2,Media,1.0,Frecuente,19,5.4,2,No,No,Moderado
+29,Masculino,3,Independiente,4.4,Alta,8.9,Frecuente,15,1.4,1,No,No,Alto
+20,Femenino,2,Empleado,7.9,Baja,7.1,Ninguno,15,3.3,4,No,No,Moderado
+32,Masculino,1,Estudiante,8.3,Media,5.7,Ocasional,21,7.4,4,No,No,Sin riesgo
+21,Femenino,3,Empleado,5.9,Baja,4.0,Ninguno,12,5.5,2,No,No,Sin riesgo
+32,Masculino,4,Desempleado,7.3,Baja,2.7,Ocasional,22,8.0,0,Si,No,Moderado
+18,Masculino,2,Independiente,6.5,Media,7.1,Ninguno,16,1.7,2,Si,No,Alto
+32,Masculino,4,Estudiante,7.2,Media,10.7,Ninguno,20,5.5,0,Si,No,Sin riesgo
+32,Masculino,5,Estudiante,6.0,Baja,7.0,Ninguno,29,5.0,3,No,No,Alto
+32,Femenino,3,Desempleado,5.7,Alta,2.9,Frecuente,18,8.1,1,No,Si,Sin riesgo
+29,Femenino,3,Desempleado,8.2,Baja,7.1,Ninguno,25,7.5,4,No,No,Moderado
+26,Femenino,1,Empleado,6.7,Media,6.4,Ninguno,6,7.4,1,No,No,Sin riesgo
+30,Masculino,5,Empleado,9.4,Alta,8.7,Ninguno,16,9.4,0,No,No,Sin riesgo
+22,Masculino,2,Empleado,6.9,Media,8.1,Ninguno,19,5.2,5,Si,No,Moderado
+32,Femenino,5,Empleado,5.6,Alta,1.0,Frecuente,32,8.9,1,Si,No,Moderado
+28,Masculino,3,Estudiante,8.4,Media,7.9,Ninguno,5,3.7,3,No,No,Sin riesgo
+26,Masculino,1,Estudiante,7.6,Alta,3.9,Ninguno,18,3.6,4,No,No,Moderado
+27,Masculino,1,Estudiante,7.7,Media,2.8,Ocasional,29,7.7,1,No,No,Moderado
+28,Femenino,3,Independiente,8.3,Media,6.0,Ninguno,14,2.7,1,Si,No,Sin riesgo
+18,Masculino,3,Estudiante,6.0,Baja,7.6,Ninguno,18,7.3,1,No,No,Sin riesgo
+20,Masculino,1,Estudiante,6.6,Media,2.2,Ninguno,21,6.2,3,No,Si,Moderado
+22,Femenino,3,Empleado,6.6,Baja,8.3,Ninguno,20,8.4,4,No,No,Moderado
+20,Femenino,4,Estudiante,5.1,Alta,8.5,Ninguno,30,5.9,1,Si,Si,Moderado
+25,Femenino,2,Estudiante,6.5,Baja,6.6,Ninguno,22,6.1,2,No,No,Moderado
+30,Femenino,2,Empleado,8.5,Baja,4.2,Ninguno,28,7.1,0,No,No,Moderado
+29,Masculino,1,Estudiante,7.1,Alta,4.0,Ocasional,16,4.5,2,No,No,Sin riesgo
+26,Masculino,4,Empleado,5.1,Baja,9.2,Ocasional,14,4.4,3,No,No,Moderado
+33,Masculino,2,Desempleado,4.8,Baja,2.6,Frecuente,17,7.0,3,No,No,Alto
+28,Femenino,4,Estudiante,9.0,Media,9.3,Ninguno,11,5.9,1,No,Si,Sin riesgo
+19,Masculino,2,Desempleado,6.7,Baja,6.1,Ninguno,22,5.1,1,No,No,Sin riesgo
+31,Femenino,3,Desempleado,6.0,Baja,6.3,Frecuente,16,5.8,0,No,Si,Moderado
+28,Masculino,2,Independiente,6.4,Media,2.1,Ocasional,14,9.5,0,Si,No,Sin riesgo
+29,Femenino,1,Empleado,4.9,Baja,6.1,Ninguno,22,5.0,1,Si,No,Alto
+28,Femenino,4,Empleado,8.7,Baja,8.1,Ninguno,11,5.0,3,No,No,Sin riesgo
+27,Masculino,2,Empleado,6.3,Baja,3.0,Ninguno,24,2.2,1,Si,No,Moderado
+19,Femenino,3,Empleado,8.6,Baja,7.8,Ninguno,16,5.9,1,Si,Si,Sin riesgo
+28,Masculino,5,Estudiante,6.9,Baja,6.7,Ninguno,27,7.4,2,No,No,Sin riesgo
+32,Masculino,5,Desempleado,8.7,Baja,4.8,Ninguno,16,7.8,0,No,Si,Sin riesgo
+23,Masculino,4,Empleado,7.1,Media,8.7,Frecuente,23,6.2,0,Si,No,Moderado
+28,Masculino,1,Independiente,7.9,Media,1.0,Ninguno,20,8.1,4,No,No,Moderado
+18,Femenino,3,Estudiante,7.7,Baja,7.4,Ninguno,24,7.6,0,No,No,Sin riesgo
+24,Masculino,4,Estudiante,7.6,Baja,10.7,Ninguno,20,8.4,1,No,Si,Sin riesgo
+25,Femenino,2,Empleado,7.3,Alta,10.2,Ocasional,7,8.2,1,No,No,Sin riesgo
+35,Masculino,1,Empleado,6.5,Media,7.5,Ocasional,26,9.5,0,No,No,Sin riesgo
+21,Femenino,4,Empleado,9.3,Media,5.7,Ninguno,18,5.6,0,Si,No,Sin riesgo
+22,Femenino,2,Estudiante,5.6,Media,4.8,Ninguno,25,3.1,0,No,No,Moderado
+25,Masculino,3,Estudiante,6.8,Baja,5.7,Ocasional,24,7.5,1,Si,Si,Moderado
+35,Femenino,6,Empleado,6.8,Alta,7.9,Ocasional,14,7.7,3,No,Si,Sin riesgo
+33,Masculino,3,Estudiante,7.3,Alta,4.4,Ninguno,13,9.5,1,Si,No,Sin riesgo
+18,Masculino,2,Desempleado,6.2,Alta,8.5,Ocasional,24,8.8,1,Si,Si,Sin riesgo
+22,Masculino,2,Estudiante,7.2,Baja,12.0,Ninguno,17,10.0,1,Si,No,Sin riesgo
+32,Masculino,2,Estudiante,6.6,Baja,6.3,Ninguno,26,7.4,4,No,No,Moderado
+19,Masculino,1,Estudiante,4.7,Baja,3.0,Ninguno,18,6.5,0,Si,No,Moderado
+33,Femenino,4,Empleado,6.8,Baja,3.0,Ninguno,26,3.0,3,Si,Si,Alto
+23,Femenino,4,Empleado,5.4,Baja,8.5,Ninguno,22,6.7,1,Si,Si,Moderado
+34,Femenino,2,Empleado,4.5,Media,6.3,Ninguno,21,4.8,4,No,No,Alto
+23,Masculino,2,Desempleado,7.0,Baja,8.8,Ocasional,16,6.5,1,No,No,Sin riesgo
+25,Femenino,4,Estudiante,7.4,Alta,5.1,Ninguno,21,6.1,0,No,No,Sin riesgo
+29,Femenino,1,Empleado,7.5,Baja,8.7,Frecuente,27,7.0,1,No,No,Moderado
+20,Femenino,3,Estudiante,7.5,Baja,6.1,Ninguno,19,5.8,0,No,No,Sin riesgo
+28,Femenino,2,Estudiante,4.3,Alta,4.6,Ninguno,23,8.1,2,No,No,Moderado
+27,Femenino,3,Empleado,5.0,Media,5.5,Frecuente,19,0.0,2,Si,No,Alto
+32,Femenino,1,Estudiante,9.4,Baja,3.4,Ocasional,20,6.4,2,No,Si,Moderado
+35,Femenino,3,Empleado,5.4,Media,11.7,Ocasional,31,8.6,0,No,No,Moderado
+29,Femenino,2,Empleado,7.6,Baja,6.2,Ocasional,27,10.0,2,Si,Si,Moderado
+25,Femenino,3,Independiente,5.9,Baja,8.2,Ninguno,20,7.6,1,No,No,Sin riesgo
+25,Femenino,1,Empleado,6.9,Media,5.1,Ninguno,21,9.7,5,Si,No,Moderado
+25,Masculino,2,Empleado,6.0,Baja,3.8,Ninguno,14,6.4,2,No,No,Sin riesgo
+32,Femenino,3,Estudiante,7.5,Media,5.9,Ninguno,18,6.0,2,No,Si,Sin riesgo
+23,Femenino,1,Estudiante,7.0,Baja,9.4,Ninguno,21,7.2,3,No,No,Moderado
+21,Femenino,1,Estudiante,6.2,Media,5.1,Ninguno,25,6.0,2,No,No,Moderado
+24,Masculino,1,Empleado,5.4,Media,4.2,Frecuente,24,4.3,1,No,Si,Alto
+18,Masculino,2,Desempleado,7.1,Baja,6.9,Frecuente,11,4.9,0,No,No,Sin riesgo
+19,Masculino,1,Estudiante,5.2,Baja,7.8,Ocasional,26,3.6,2,Si,No,Alto
+19,Femenino,5,Empleado,7.4,Media,10.8,Ocasional,18,7.2,1,No,No,Sin riesgo
+31,Femenino,2,Independiente,10.0,Media,7.4,Ninguno,12,6.0,0,No,No,Sin riesgo
+31,Femenino,4,Independiente,8.6,Media,8.2,Ninguno,28,5.2,3,No,No,Alto
+30,Masculino,6,Empleado,7.7,Media,8.4,Ocasional,29,4.8,0,No,No,Moderado
+26,Masculino,1,Empleado,6.7,Media,3.5,Ocasional,21,7.1,2,Si,No,Moderado
+30,Masculino,3,Empleado,4.3,Baja,4.0,Ninguno,24,7.7,0,Si,Si,Moderado
+20,Masculino,4,Independiente,5.1,Media,3.7,Ninguno,24,3.5,1,Si,No,Alto
+34,Masculino,3,Estudiante,8.5,Baja,3.0,Ninguno,29,3.2,3,Si,No,Alto
+27,Masculino,2,Desempleado,5.8,Media,8.6,Ninguno,24,8.1,0,No,No,Sin riesgo
+34,Masculino,2,Estudiante,5.9,Baja,7.3,Ninguno,10,3.0,2,No,No,Moderado
+20,Femenino,1,Independiente,6.6,Baja,6.7,Ninguno,33,7.2,2,No,No,Moderado
+26,Femenino,3,Estudiante,5.4,Media,1.0,Ocasional,26,9.6,3,No,Si,Moderado
+30,Masculino,6,Estudiante,5.2,Media,11.8,Frecuente,15,9.6,0,No,No,Sin riesgo
+26,Femenino,5,Estudiante,6.7,Media,4.2,Ninguno,12,7.6,3,No,Si,Sin riesgo
+26,Femenino,1,Empleado,5.6,Media,11.8,Ocasional,23,7.6,1,No,No,Moderado
+20,Masculino,3,Estudiante,5.8,Alta,2.7,Ocasional,17,10.0,1,No,No,Sin riesgo
+24,Femenino,2,Estudiante,5.8,Alta,4.4,Ninguno,21,0.9,1,No,No,Alto
+22,Masculino,5,Empleado,7.5,Alta,1.0,Ocasional,24,5.0,1,No,No,Moderado
+23,Masculino,1,Empleado,6.5,Media,7.4,Ninguno,15,7.9,1,No,No,Sin riesgo
+30,Femenino,5,Independiente,6.6,Media,3.6,Ninguno,11,5.3,0,Si,No,Sin riesgo
+29,Masculino,4,Desempleado,7.6,Media,3.7,Ninguno,22,8.7,1,No,No,Sin riesgo
+28,Masculino,1,Empleado,6.6,Media,2.9,Frecuente,15,5.9,2,No,Si,Moderado
+24,Masculino,1,Estudiante,6.4,Baja,8.5,Frecuente,20,6.3,1,No,No,Moderado
+35,Femenino,4,Estudiante,7.4,Media,8.3,Ninguno,10,5.4,0,No,No,Sin riesgo
+19,Masculino,1,Desempleado,7.7,Baja,11.2,Ninguno,17,4.9,1,No,Si,Sin riesgo
+24,Masculino,3,Estudiante,6.6,Baja,4.7,Ninguno,24,4.8,1,No,No,Moderado
+20,Masculino,5,Empleado,6.9,Alta,7.1,Ocasional,23,6.6,2,No,No,Sin riesgo
+24,Femenino,3,Desempleado,5.8,Baja,3.1,Ninguno,13,4.3,4,No,No,Moderado
+35,Femenino,2,Desempleado,5.7,Media,5.6,Ninguno,11,8.1,1,No,No,Sin riesgo
+24,Masculino,2,Empleado,7.8,Media,5.2,Ocasional,19,7.4,2,Si,No,Moderado
+34,Femenino,1,Empleado,7.4,Baja,7.7,Ninguno,23,8.4,0,No,No,Sin riesgo
+26,Femenino,5,Empleado,7.4,Alta,9.1,Ninguno,22,3.5,4,No,No,Alto
+30,Femenino,2,Independiente,7.2,Baja,9.1,Ninguno,15,2.3,1,Si,Si,Alto
+26,Femenino,1,Estudiante,6.9,Alta,4.3,Ninguno,21,6.0,1,No,No,Sin riesgo
+22,Femenino,2,Estudiante,7.7,Media,9.1,Ninguno,30,10.0,0,Si,Si,Sin riesgo
+31,Femenino,5,Empleado,8.0,Baja,6.4,Ninguno,20,8.8,0,Si,No,Sin riesgo
+35,Masculino,1,Estudiante,8.0,Baja,5.7,Ninguno,8,4.8,3,No,No,Sin riesgo
+22,Femenino,4,Empleado,6.7,Baja,4.7,Frecuente,20,6.9,0,Si,No,Moderado
+32,Femenino,3,Estudiante,8.6,Baja,5.0,Ninguno,33,7.6,0,No,Si,Sin riesgo
+22,Femenino,4,Desempleado,7.1,Baja,11.0,Frecuente,10,3.0,0,No,Si,Sin riesgo
+30,Masculino,6,Independiente,7.6,Alta,7.3,Ninguno,19,9.0,5,No,No,Sin riesgo
+32,Femenino,4,Empleado,7.2,Baja,7.0,Ocasional,17,5.6,3,Si,No,Moderado
+26,Masculino,5,Independiente,7.1,Alta,5.8,Ninguno,20,5.8,4,No,No,Moderado
+31,Masculino,1,Estudiante,5.8,Baja,12.9,Ocasional,20,6.1,3,Si,No,Alto
+22,Masculino,4,Empleado,7.7,Alta,9.9,Ninguno,27,8.5,4,No,No,Moderado
+19,Masculino,3,Estudiante,10.0,Baja,4.6,Ninguno,20,4.3,1,No,No,Sin riesgo
+19,Femenino,3,Independiente,6.3,Media,5.8,Ninguno,28,2.2,0,No,No,Moderado
+26,Masculino,5,Independiente,6.9,Media,5.9,Ninguno,18,6.7,1,No,Si,Sin riesgo
+34,Femenino,6,Desempleado,6.2,Baja,6.9,Frecuente,17,1.5,0,No,No,Moderado
+20,Masculino,3,Independiente,6.2,Alta,4.7,Frecuente,14,5.3,2,Si,Si,Moderado
+26,Masculino,2,Desempleado,8.8,Baja,7.6,Ocasional,6,8.6,0,No,No,Sin riesgo
+30,Masculino,2,Estudiante,5.9,Media,10.3,Ninguno,21,7.3,0,No,Si,Sin riesgo
+21,Masculino,2,Desempleado,6.2,Media,3.1,Frecuente,33,8.3,2,No,No,Alto
+30,Femenino,2,Empleado,4.7,Media,3.6,Ocasional,22,7.4,0,Si,No,Moderado
+23,Masculino,2,Empleado,5.8,Baja,5.2,Ninguno,24,10.0,0,Si,No,Sin riesgo
+32,Masculino,1,Empleado,4.6,Baja,5.4,Ninguno,16,4.7,0,No,No,Sin riesgo
+28,Masculino,1,Estudiante,7.6,Baja,11.7,Ocasional,17,6.9,2,Si,No,Moderado
+27,Femenino,4,Estudiante,10.0,Baja,9.1,Ninguno,26,5.0,0,No,Si,Moderado
+21,Masculino,2,Estudiante,6.3,Baja,9.0,Ninguno,33,8.1,0,No,No,Moderado
+26,Femenino,5,Estudiante,4.6,Alta,5.8,Ocasional,29,5.9,0,No,Si,Moderado
+33,Femenino,3,Empleado,8.0,Media,5.8,Ninguno,25,9.8,2,No,No,Sin riesgo
+18,Femenino,1,Desempleado,5.9,Media,2.7,Ninguno,19,4.8,0,Si,No,Sin riesgo
+31,Masculino,1,Empleado,8.5,Baja,8.5,Ninguno,20,9.1,0,No,Si,Sin riesgo
+26,Femenino,1,Empleado,6.4,Baja,7.8,Ocasional,14,7.3,4,No,No,Moderado
+30,Femenino,6,Empleado,6.0,Media,9.8,Frecuente,9,5.9,3,Si,No,Moderado
+29,Femenino,1,Empleado,6.6,Baja,6.0,Ocasional,11,7.2,0,No,No,Sin riesgo
+25,Masculino,3,Estudiante,7.8,Baja,6.1,Ocasional,19,6.6,0,No,No,Sin riesgo
+23,Femenino,5,Independiente,6.5,Media,6.9,Ninguno,17,6.8,0,Si,Si,Sin riesgo
+29,Masculino,6,Estudiante,6.2,Media,8.8,Ocasional,9,5.5,2,No,Si,Sin riesgo
+20,Masculino,2,Independiente,6.5,Alta,2.7,Ninguno,19,4.5,0,Si,No,Sin riesgo
+28,Masculino,1,Independiente,5.1,Baja,8.4,Ninguno,17,5.3,4,No,No,Alto
+19,Masculino,1,Empleado,7.3,Media,6.4,Ocasional,11,2.3,3,No,No,Sin riesgo
+29,Femenino,1,Independiente,4.5,Baja,3.7,Ocasional,16,7.9,2,No,No,Moderado
+29,Femenino,1,Estudiante,6.2,Baja,1.1,Ninguno,17,3.3,0,No,No,Sin riesgo
+19,Femenino,3,Desempleado,7.8,Media,6.1,Ocasional,15,5.5,3,Si,Si,Moderado
+31,Masculino,5,Independiente,7.2,Baja,10.3,Ocasional,25,7.4,2,No,No,Moderado
+25,Masculino,3,Independiente,7.6,Media,10.9,Ninguno,6,7.8,3,Si,No,Sin riesgo
+32,Masculino,3,Empleado,6.7,Media,7.4,Ninguno,5,2.1,0,No,No,Sin riesgo
+18,Femenino,1,Independiente,8.3,Baja,11.6,Ninguno,19,5.8,2,Si,Si,Moderado
+21,Femenino,4,Desempleado,8.0,Alta,6.4,Ninguno,20,7.0,3,Si,No,Moderado
+26,Femenino,3,Empleado,7.4,Media,9.0,Ninguno,22,6.1,4,Si,No,Moderado
+21,Femenino,4,Independiente,8.0,Alta,5.3,Ninguno,15,9.0,2,Si,No,Sin riesgo
+23,Femenino,5,Independiente,7.8,Media,5.2,Ninguno,13,4.2,1,Si,No,Sin riesgo
+29,Masculino,2,Empleado,6.2,Alta,4.7,Ninguno,19,1.5,1,Si,No,Moderado
+20,Femenino,1,Desempleado,5.1,Baja,1.1,Ocasional,16,7.8,2,No,No,Sin riesgo
+30,Masculino,2,Estudiante,7.3,Media,9.8,Ocasional,30,4.8,4,No,No,Alto
+19,Femenino,2,Empleado,7.5,Media,4.8,Ninguno,17,2.1,2,Si,No,Moderado
+21,Femenino,5,Estudiante,8.2,Baja,4.4,Ninguno,19,5.7,0,No,No,Sin riesgo
+28,Masculino,2,Estudiante,5.6,Baja,3.4,Ninguno,36,8.7,0,No,No,Moderado
+32,Masculino,4,Independiente,5.6,Alta,6.0,Ninguno,18,3.2,2,No,No,Moderado
+21,Femenino,3,Estudiante,7.4,Media,11.1,Ninguno,23,10.0,3,No,No,Sin riesgo
+23,Femenino,1,Estudiante,6.7,Media,11.9,Ninguno,24,4.2,0,No,No,Moderado
+34,Femenino,2,Estudiante,4.3,Media,2.2,Ninguno,24,6.2,1,No,No,Moderado
+35,Masculino,3,Empleado,7.3,Alta,5.6,Frecuente,21,3.3,4,Si,No,Alto
+28,Femenino,3,Independiente,4.4,Alta,3.8,Ninguno,20,6.1,1,No,No,Moderado
+26,Masculino,2,Desempleado,5.6,Media,9.1,Ocasional,20,5.7,0,No,No,Moderado
+24,Femenino,2,Estudiante,8.6,Baja,7.2,Ninguno,15,2.7,1,No,No,Sin riesgo
+29,Masculino,3,Empleado,9.2,Baja,4.8,Ninguno,21,10.0,1,No,Si,Sin riesgo
+28,Femenino,1,Empleado,5.2,Media,6.7,Frecuente,33,4.9,0,No,No,Alto
+23,Masculino,5,Empleado,6.4,Alta,5.3,Ninguno,27,4.9,2,No,No,Sin riesgo
+18,Masculino,1,Empleado,6.9,Media,10.7,Ocasional,21,8.1,2,Si,Si,Moderado
+20,Femenino,1,Estudiante,9.1,Baja,7.9,Frecuente,25,10.0,2,Si,No,Moderado
+35,Femenino,2,Empleado,6.2,Baja,8.2,Ninguno,13,8.5,2,No,No,Sin riesgo
+25,Masculino,3,Empleado,6.2,Media,1.0,Ninguno,17,3.4,0,Si,No,Sin riesgo
+26,Femenino,3,Empleado,8.8,Alta,6.3,Ninguno,26,6.5,0,No,No,Sin riesgo
+26,Femenino,2,Empleado,6.3,Baja,11.9,Ninguno,29,1.9,0,Si,No,Alto
+32,Femenino,6,Independiente,7.7,Media,9.9,Ninguno,14,8.0,0,No,No,Sin riesgo
+19,Femenino,2,Independiente,4.9,Media,1.7,Ninguno,16,2.4,2,No,No,Moderado
+19,Femenino,2,Estudiante,6.6,Alta,5.7,Frecuente,34,4.2,0,No,Si,Alto
+22,Femenino,2,Independiente,4.6,Baja,3.4,Ocasional,20,6.0,2,No,No,Alto
+26,Femenino,1,Independiente,5.4,Alta,10.9,Ninguno,32,7.0,0,No,No,Moderado
+30,Femenino,3,Estudiante,7.9,Media,7.1,Ninguno,20,5.4,0,No,Si,Sin riesgo
+26,Femenino,2,Empleado,6.7,Media,4.5,Ocasional,21,9.3,0,No,No,Sin riesgo
+25,Femenino,3,Estudiante,6.4,Baja,6.6,Frecuente,17,7.6,1,No,Si,Moderado
+34,Masculino,1,Independiente,5.8,Media,1.0,Ninguno,26,7.4,2,Si,No,Moderado
+20,Femenino,6,Estudiante,6.5,Media,3.7,Ninguno,29,3.3,3,No,No,Alto
+28,Femenino,2,Empleado,7.2,Baja,6.6,Ocasional,12,9.7,0,No,No,Sin riesgo
+27,Femenino,5,Estudiante,8.1,Media,8.7,Frecuente,17,4.2,2,No,No,Moderado
+26,Masculino,2,Empleado,3.4,Media,1.5,Frecuente,25,9.8,2,No,No,Alto
+32,Femenino,1,Desempleado,5.7,Media,5.5,Ninguno,18,10.0,1,No,No,Sin riesgo
+22,Femenino,4,Estudiante,7.0,Baja,9.1,Ninguno,16,7.1,0,No,No,Sin riesgo
+35,Femenino,3,Independiente,6.7,Media,2.7,Ninguno,26,8.3,0,No,No,Sin riesgo
+23,Femenino,4,Desempleado,7.3,Baja,7.1,Ninguno,27,0.0,0,No,Si,Alto
+27,Femenino,2,Independiente,7.1,Alta,6.7,Frecuente,16,5.6,3,No,Si,Moderado
+27,Femenino,3,Estudiante,6.4,Alta,11.0,Ninguno,20,8.4,1,Si,No,Sin riesgo
+33,Masculino,4,Independiente,6.1,Baja,5.9,Ocasional,11,8.0,1,No,Si,Sin riesgo
+25,Masculino,3,Estudiante,6.5,Baja,6.1,Frecuente,13,3.3,2,Si,No,Alto
+23,Femenino,2,Estudiante,8.3,Baja,8.7,Frecuente,20,5.4,1,No,No,Moderado
+18,Masculino,3,Independiente,5.8,Media,3.1,Ocasional,19,0.4,2,No,No,Alto
+24,Masculino,3,Empleado,6.7,Alta,5.9,Frecuente,12,6.9,0,No,No,Sin riesgo
+32,Femenino,5,Empleado,7.0,Media,5.3,Ninguno,14,1.9,1,Si,No,Moderado
+18,Femenino,2,Estudiante,8.8,Baja,6.1,Ninguno,12,8.5,0,Si,Si,Sin riesgo
+34,Femenino,2,Independiente,6.4,Baja,8.7,Ninguno,22,8.6,0,Si,No,Sin riesgo
+27,Masculino,4,Independiente,8.0,Baja,7.9,Frecuente,5,5.0,0,No,No,Sin riesgo
+20,Femenino,3,Empleado,8.4,Alta,4.6,Frecuente,12,7.1,2,No,No,Sin riesgo
+23,Masculino,3,Desempleado,6.7,Media,6.9,Ninguno,6,5.5,2,No,No,Sin riesgo
+27,Femenino,2,Estudiante,6.5,Media,10.4,Ninguno,22,6.5,2,No,No,Moderado
+23,Masculino,1,Estudiante,6.4,Baja,4.3,Ninguno,6,3.5,0,Si,Si,Sin riesgo
+19,Masculino,3,Empleado,6.5,Alta,6.9,Ninguno,19,7.4,5,No,No,Sin riesgo
+29,Femenino,1,Desempleado,7.9,Baja,6.0,Ocasional,30,2.4,0,Si,No,Alto
+30,Femenino,1,Estudiante,7.1,Alta,6.3,Ninguno,31,2.0,3,No,Si,Alto
+20,Masculino,3,Estudiante,7.1,Alta,2.3,Ocasional,6,5.7,2,No,No,Sin riesgo
+23,Femenino,3,Estudiante,5.3,Media,10.2,Ninguno,21,5.5,2,No,Si,Moderado
+22,Femenino,5,Independiente,5.5,Alta,4.5,Ninguno,12,6.6,1,Si,Si,Sin riesgo
+29,Masculino,2,Estudiante,9.6,Baja,9.2,Ninguno,11,4.6,2,Si,No,Moderado
+31,Femenino,1,Empleado,6.6,Media,4.9,Frecuente,18,10.0,2,No,No,Sin riesgo
+31,Femenino,5,Desempleado,5.8,Baja,4.9,Ocasional,28,6.4,0,No,Si,Alto
+34,Femenino,1,Estudiante,8.7,Media,9.7,Ninguno,23,6.5,3,No,Si,Sin riesgo
+31,Femenino,1,Empleado,7.2,Baja,9.1,Ninguno,14,6.4,0,No,No,Sin riesgo
+23,Masculino,2,Empleado,7.6,Baja,7.0,Frecuente,24,8.2,1,No,No,Moderado
+19,Masculino,3,Independiente,6.6,Baja,8.5,Ocasional,3,7.3,2,Si,Si,Sin riesgo
+29,Femenino,4,Estudiante,6.4,Baja,5.7,Ocasional,14,7.0,3,No,No,Moderado
+34,Femenino,4,Empleado,6.6,Media,6.5,Ocasional,13,7.6,1,Si,No,Sin riesgo
+35,Masculino,3,Estudiante,5.0,Media,4.8,Frecuente,20,2.0,0,No,No,Alto
+22,Femenino,1,Independiente,6.7,Baja,8.9,Ninguno,18,2.1,1,No,No,Moderado
+22,Femenino,2,Independiente,7.2,Alta,4.7,Ocasional,18,5.8,0,No,Si,Sin riesgo
+18,Femenino,2,Estudiante,9.2,Alta,10.4,Ninguno,18,5.6,1,No,No,Sin riesgo
+20,Femenino,1,Estudiante,6.9,Baja,5.7,Ninguno,19,7.3,1,Si,No,Sin riesgo
+27,Masculino,2,Desempleado,3.8,Media,6.6,Frecuente,23,6.0,3,No,No,Alto
+27,Femenino,2,Estudiante,6.7,Media,8.5,Frecuente,20,7.3,0,No,Si,Sin riesgo
+24,Femenino,1,Estudiante,10.0,Media,6.6,Ninguno,17,3.3,0,No,No,Sin riesgo
+23,Masculino,3,Empleado,7.9,Baja,5.7,Ninguno,22,6.0,1,No,No,Sin riesgo
+32,Femenino,3,Estudiante,5.7,Media,6.4,Frecuente,25,3.0,0,No,Si,Alto
+26,Masculino,1,Estudiante,7.6,Baja,8.8,Frecuente,15,6.9,0,Si,No,Moderado
+32,Femenino,2,Empleado,5.8,Baja,4.8,Ocasional,19,1.9,1,No,No,Alto
+35,Femenino,4,Estudiante,5.0,Media,6.2,Ninguno,27,6.8,1,No,No,Moderado
+23,Femenino,3,Empleado,6.3,Media,6.5,Ninguno,11,2.8,0,Si,Si,Sin riesgo
+21,Masculino,4,Independiente,6.9,Alta,8.7,Frecuente,32,5.2,1,No,No,Alto
+35,Masculino,2,Empleado,4.4,Baja,6.2,Ocasional,10,8.0,3,No,No,Sin riesgo
+29,Femenino,4,Estudiante,5.3,Baja,11.2,Ocasional,17,6.5,1,Si,No,Moderado
+23,Femenino,2,Independiente,6.8,Baja,6.1,Ocasional,12,2.4,0,Si,No,Moderado
+29,Femenino,2,Estudiante,6.3,Baja,5.9,Ninguno,34,4.5,0,No,No,Moderado
+27,Masculino,1,Independiente,7.3,Baja,6.1,Ninguno,15,2.7,0,No,No,Sin riesgo
+34,Femenino,2,Estudiante,5.2,Media,3.1,Ocasional,15,2.3,1,No,No,Moderado
+22,Masculino,2,Independiente,7.7,Media,3.8,Ninguno,16,6.3,2,Si,No,Sin riesgo
+35,Masculino,2,Estudiante,5.3,Media,5.1,Ocasional,20,7.2,0,Si,No,Sin riesgo
+34,Masculino,4,Estudiante,8.9,Baja,9.5,Ocasional,17,7.0,0,Si,No,Sin riesgo
+21,Femenino,2,Empleado,4.6,Baja,6.4,Ocasional,18,7.3,1,No,No,Moderado
+20,Femenino,2,Estudiante,5.4,Media,5.2,Ninguno,0,6.0,1,Si,No,Sin riesgo
+27,Femenino,1,Estudiante,7.3,Baja,9.7,Ocasional,19,5.4,4,Si,Si,Alto
+18,Masculino,2,Independiente,9.0,Alta,10.5,Ninguno,19,3.6,0,Si,Si,Sin riesgo
+23,Masculino,2,Independiente,7.2,Baja,9.8,Ninguno,26,5.0,0,No,No,Moderado
+25,Masculino,2,Estudiante,7.5,Media,4.3,Ninguno,28,3.1,1,No,No,Moderado
+35,Femenino,2,Desempleado,6.8,Alta,5.2,Ninguno,18,4.1,0,No,No,Sin riesgo
+35,Femenino,4,Independiente,5.5,Media,11.2,Frecuente,25,6.2,0,No,No,Alto
+20,Masculino,5,Independiente,6.2,Media,7.1,Frecuente,11,5.7,1,No,No,Moderado
+34,Masculino,2,Empleado,5.2,Media,5.8,Ninguno,24,10.0,1,No,Si,Sin riesgo
+19,Masculino,3,Empleado,5.1,Baja,8.4,Ocasional,15,3.0,0,No,Si,Moderado
+31,Masculino,4,Empleado,7.3,Media,9.1,Ninguno,11,5.7,2,No,Si,Sin riesgo
+33,Femenino,6,Empleado,5.3,Alta,5.0,Ocasional,18,2.9,1,Si,Si,Alto
+34,Femenino,3,Desempleado,7.2,Alta,7.1,Frecuente,29,5.1,0,No,No,Alto
+22,Femenino,4,Estudiante,5.1,Media,8.9,Ninguno,20,5.2,3,No,No,Alto
+34,Masculino,5,Estudiante,7.2,Baja,3.5,Ninguno,29,7.9,0,No,Si,Sin riesgo
+20,Masculino,4,Estudiante,6.2,Media,6.5,Ninguno,14,5.0,4,Si,No,Moderado
+27,Femenino,2,Desempleado,8.6,Media,3.6,Ninguno,26,5.6,4,No,No,Alto
+26,Masculino,1,Empleado,7.2,Baja,3.9,Frecuente,14,5.1,1,No,No,Moderado
+23,Masculino,1,Empleado,8.4,Baja,5.0,Ninguno,21,2.9,0,Si,No,Moderado
+18,Masculino,2,Independiente,5.8,Baja,7.7,Ninguno,21,4.6,3,Si,Si,Alto
+31,Masculino,2,Desempleado,6.9,Media,5.7,Ninguno,24,5.2,1,Si,No,Moderado
+24,Femenino,2,Estudiante,5.5,Baja,4.8,Frecuente,21,6.2,0,No,Si,Moderado
+29,Femenino,3,Independiente,6.3,Baja,6.6,Ninguno,14,7.2,1,No,Si,Sin riesgo
+25,Masculino,3,Desempleado,6.5,Baja,3.5,Ocasional,25,5.5,1,No,Si,Moderado
+24,Masculino,4,Estudiante,5.9,Alta,7.6,Ocasional,31,5.4,3,No,No,Alto
+33,Femenino,1,Independiente,5.2,Baja,9.4,Ninguno,15,2.2,2,No,Si,Alto
+19,Femenino,2,Estudiante,5.0,Baja,6.3,Ninguno,6,7.2,3,No,No,Sin riesgo
+31,Masculino,4,Empleado,3.8,Media,6.0,Ninguno,22,4.5,2,Si,No,Alto
+31,Masculino,4,Empleado,5.4,Baja,7.5,Ninguno,17,7.6,2,Si,Si,Moderado
+24,Femenino,6,Estudiante,7.6,Alta,1.2,Ocasional,18,8.9,1,No,No,Sin riesgo
+22,Masculino,4,Estudiante,4.7,Alta,7.9,Ocasional,23,5.6,5,Si,No,Alto
+18,Femenino,4,Estudiante,5.0,Media,14.0,Ninguno,16,3.7,4,Si,Si,Alto
+34,Femenino,2,Estudiante,9.1,Media,6.2,Ninguno,17,6.0,3,No,No,Sin riesgo
+35,Masculino,2,Empleado,6.0,Baja,6.2,Ninguno,18,6.8,2,No,Si,Moderado
+22,Femenino,2,Estudiante,7.2,Baja,8.4,Ninguno,29,5.3,1,Si,No,Alto
+18,Masculino,3,Estudiante,7.6,Baja,10.8,Ocasional,19,4.8,0,No,Si,Sin riesgo
+20,Femenino,5,Empleado,7.7,Baja,9.0,Ocasional,10,7.2,3,No,No,Moderado
+19,Masculino,2,Empleado,4.8,Baja,1.0,Ocasional,11,7.1,0,No,No,Sin riesgo
+32,Femenino,3,Empleado,6.5,Media,8.0,Ninguno,20,5.2,0,No,Si,Sin riesgo
+34,Masculino,2,Desempleado,4.7,Baja,13.2,Ninguno,11,2.4,1,Si,Si,Moderado
+20,Femenino,1,Estudiante,10.0,Baja,8.1,Ninguno,8,7.0,2,Si,No,Sin riesgo
+31,Masculino,1,Independiente,4.7,Media,3.5,Frecuente,23,4.3,1,Si,No,Alto
+21,Femenino,1,Estudiante,5.4,Media,7.2,Ocasional,24,6.5,0,No,No,Moderado
+24,Femenino,5,Independiente,5.4,Baja,3.2,Frecuente,16,6.3,0,No,No,Moderado
+28,Femenino,2,Desempleado,4.9,Baja,9.7,Ninguno,21,1.8,0,No,Si,Alto
+30,Masculino,4,Independiente,8.6,Baja,4.0,Ninguno,20,6.2,1,No,No,Sin riesgo
+33,Femenino,3,Empleado,9.9,Baja,6.7,Ocasional,23,7.1,0,No,No,Sin riesgo
+18,Masculino,1,Empleado,6.2,Alta,4.3,Ninguno,23,7.4,2,Si,No,Sin riesgo
+21,Masculino,1,Estudiante,5.1,Alta,5.1,Ocasional,1,6.3,0,Si,Si,Sin riesgo
+23,Masculino,4,Empleado,3.9,Media,10.4,Ninguno,17,1.7,1,No,No,Alto
+23,Masculino,2,Independiente,6.5,Media,6.8,Frecuente,23,8.8,1,No,No,Moderado
+35,Femenino,5,Desempleado,6.4,Media,5.0,Ninguno,16,6.9,1,No,No,Sin riesgo
+31,Masculino,1,Empleado,6.0,Media,3.5,Frecuente,19,3.4,3,Si,No,Alto
+23,Masculino,3,Estudiante,7.1,Baja,1.6,Ninguno,24,4.3,0,No,No,Moderado
+35,Femenino,4,Empleado,7.3,Baja,3.2,Ninguno,20,6.5,1,Si,No,Moderado
+26,Femenino,2,Estudiante,7.2,Media,6.8,Ninguno,30,7.5,2,No,No,Moderado
+27,Masculino,2,Estudiante,6.4,Media,9.0,Ninguno,27,4.9,0,Si,No,Moderado
+25,Femenino,5,Estudiante,5.4,Baja,5.0,Frecuente,18,7.8,3,No,Si,Moderado
+20,Masculino,2,Independiente,7.7,Baja,10.6,Frecuente,18,2.1,4,Si,No,Alto
+34,Femenino,2,Estudiante,6.8,Baja,4.6,Frecuente,0,3.7,2,Si,No,Sin riesgo
+18,Femenino,2,Estudiante,8.0,Baja,5.9,Frecuente,17,1.5,4,No,No,Alto
+21,Masculino,2,Estudiante,7.8,Media,3.7,Ocasional,10,4.0,1,No,No,Sin riesgo
+22,Femenino,4,Independiente,5.0,Media,9.1,Ninguno,21,9.3,1,No,No,Sin riesgo
+23,Masculino,4,Empleado,4.9,Media,12.0,Ocasional,20,10.0,0,No,No,Sin riesgo
+20,Masculino,2,Estudiante,5.8,Baja,1.9,Ninguno,24,6.5,0,No,No,Sin riesgo
+18,Femenino,4,Estudiante,5.4,Baja,5.6,Ocasional,29,4.6,0,No,No,Alto
+30,Femenino,1,Empleado,7.8,Alta,9.8,Ninguno,19,5.5,1,No,No,Sin riesgo
+35,Masculino,1,Estudiante,7.3,Media,2.7,Ocasional,35,7.0,1,No,No,Moderado
+20,Masculino,3,Empleado,8.2,Baja,8.0,Ninguno,21,2.6,0,No,No,Moderado
+23,Femenino,6,Empleado,7.3,Baja,9.7,Ninguno,10,4.7,2,No,No,Moderado
+27,Masculino,1,Desempleado,7.1,Alta,6.7,Ninguno,15,9.2,0,No,No,Sin riesgo
+34,Femenino,1,Estudiante,8.4,Media,7.9,Ninguno,16,3.7,1,Si,No,Sin riesgo
+30,Femenino,3,Empleado,7.4,Alta,11.1,Ninguno,23,4.4,0,No,No,Sin riesgo
+31,Masculino,4,Estudiante,6.9,Media,11.6,Ninguno,12,6.0,2,No,No,Sin riesgo
+28,Femenino,1,Desempleado,8.7,Media,6.3,Ninguno,17,6.6,1,No,No,Sin riesgo
+25,Masculino,2,Desempleado,6.9,Media,5.1,Ninguno,18,4.6,2,No,No,Moderado
+21,Masculino,3,Independiente,6.4,Baja,4.1,Ninguno,16,6.2,0,Si,No,Sin riesgo
+33,Masculino,2,Empleado,5.7,Media,9.0,Ocasional,25,7.3,1,Si,Si,Moderado
+32,Masculino,1,Estudiante,7.7,Media,2.9,Ninguno,23,10.0,4,No,No,Sin riesgo
+18,Femenino,1,Independiente,8.4,Baja,5.8,Ninguno,27,5.7,0,No,No,Sin riesgo
+30,Femenino,2,Independiente,6.7,Alta,6.8,Ninguno,17,5.9,1,No,No,Sin riesgo
+19,Masculino,2,Estudiante,8.5,Baja,5.2,Ninguno,27,9.4,0,No,No,Sin riesgo
+31,Masculino,4,Empleado,4.2,Baja,7.2,Ninguno,9,4.8,0,No,Si,Sin riesgo
+32,Femenino,3,Empleado,6.7,Baja,13.2,Ocasional,9,3.1,1,No,No,Moderado
+20,Masculino,3,Independiente,6.7,Alta,6.2,Ninguno,11,6.6,0,No,No,Sin riesgo
+25,Femenino,6,Empleado,5.9,Alta,5.4,Ninguno,19,8.4,1,Si,No,Sin riesgo
+20,Masculino,2,Empleado,9.9,Media,9.1,Ninguno,27,6.8,4,No,No,Alto
+28,Femenino,2,Empleado,6.7,Alta,7.1,Ninguno,15,5.8,0,No,Si,Sin riesgo
+34,Masculino,5,Estudiante,6.3,Alta,10.2,Ninguno,16,2.8,0,Si,No,Sin riesgo
+19,Femenino,2,Estudiante,6.8,Alta,6.9,Ocasional,17,5.9,3,Si,No,Moderado
+25,Femenino,3,Estudiante,4.2,Alta,5.9,Ninguno,23,8.7,1,No,No,Moderado
+35,Masculino,4,Independiente,5.8,Baja,1.9,Ocasional,16,3.3,3,No,No,Moderado
+23,Femenino,1,Empleado,8.1,Media,2.3,Ninguno,15,5.5,1,No,No,Sin riesgo
+20,Femenino,2,Empleado,6.0,Media,1.7,Ninguno,10,5.1,2,No,No,Sin riesgo
+26,Masculino,1,Estudiante,5.7,Media,7.5,Ninguno,15,4.5,4,Si,No,Moderado
+27,Femenino,1,Estudiante,8.5,Baja,3.0,Ninguno,27,6.5,0,No,No,Sin riesgo
+29,Femenino,2,Empleado,8.5,Media,9.8,Ninguno,20,7.0,3,No,No,Moderado
+23,Femenino,2,Estudiante,7.5,Alta,6.6,Ocasional,14,7.0,2,No,No,Sin riesgo
+35,Masculino,4,Estudiante,6.2,Baja,5.9,Ocasional,28,3.9,3,No,No,Alto
+27,Masculino,5,Independiente,6.5,Alta,4.3,Ninguno,15,2.4,0,No,No,Sin riesgo
+23,Masculino,4,Estudiante,5.8,Baja,8.1,Ninguno,29,6.6,1,No,No,Moderado
+35,Femenino,2,Estudiante,5.5,Baja,4.4,Ocasional,29,4.9,0,No,No,Moderado
+34,Femenino,2,Empleado,5.4,Baja,3.9,Ninguno,19,10.0,4,Si,No,Moderado
+26,Femenino,2,Independiente,6.0,Alta,9.6,Ninguno,9,10.0,0,No,No,Sin riesgo
+18,Masculino,1,Estudiante,5.5,Media,7.4,Ocasional,35,10.0,0,No,No,Moderado
+28,Femenino,5,Independiente,4.8,Baja,5.9,Ninguno,22,3.9,3,No,No,Alto
+27,Femenino,2,Desempleado,7.1,Media,8.2,Ninguno,17,7.3,1,No,No,Sin riesgo
+20,Masculino,2,Empleado,7.1,Baja,6.5,Ninguno,26,7.9,2,Si,Si,Sin riesgo
+29,Masculino,4,Empleado,9.0,Media,7.5,Ocasional,24,7.7,0,No,No,Sin riesgo
+33,Masculino,2,Independiente,5.9,Alta,4.4,Ninguno,28,5.2,2,Si,No,Alto
+19,Femenino,1,Empleado,7.2,Media,11.9,Ocasional,14,8.8,0,Si,No,Sin riesgo
+31,Masculino,1,Empleado,7.2,Media,5.0,Ninguno,21,6.0,1,No,No,Sin riesgo
+20,Masculino,3,Empleado,6.5,Media,10.5,Ninguno,11,6.3,1,No,Si,Sin riesgo
+31,Femenino,4,Estudiante,7.8,Alta,6.0,Ninguno,24,2.6,1,No,No,Moderado
+25,Masculino,1,Estudiante,7.8,Baja,8.6,Ocasional,19,7.4,0,No,No,Sin riesgo
+18,Masculino,5,Empleado,7.2,Baja,8.4,Ninguno,21,5.4,0,Si,No,Sin riesgo
+35,Femenino,4,Estudiante,6.5,Baja,9.5,Ocasional,18,7.0,2,No,No,Moderado
+20,Masculino,4,Empleado,6.3,Media,4.3,Ninguno,17,6.5,0,No,Si,Sin riesgo
+28,Masculino,2,Empleado,5.0,Media,9.3,Ninguno,13,6.4,0,No,No,Sin riesgo
+21,Masculino,1,Desempleado,5.8,Media,11.3,Ninguno,25,5.9,1,No,No,Moderado
+34,Masculino,4,Estudiante,6.0,Baja,5.8,Ninguno,29,7.7,1,No,No,Moderado
+31,Masculino,2,Empleado,5.3,Baja,6.6,Ninguno,15,5.6,2,No,No,Sin riesgo
+32,Masculino,3,Empleado,7.4,Media,5.1,Ocasional,23,2.8,1,No,No,Alto
+25,Femenino,4,Estudiante,8.4,Alta,5.6,Frecuente,22,7.3,3,No,No,Moderado
+26,Masculino,1,Estudiante,5.6,Baja,10.9,Ocasional,19,4.2,2,No,No,Alto
+29,Masculino,4,Estudiante,7.2,Baja,3.9,Ninguno,8,3.1,3,No,Si,Sin riesgo
+32,Masculino,5,Estudiante,5.5,Baja,4.1,Ninguno,10,3.8,2,No,No,Sin riesgo
+33,Femenino,3,Estudiante,6.4,Media,10.7,Ocasional,14,6.6,0,No,Si,Sin riesgo
+18,Femenino,2,Empleado,5.9,Baja,8.1,Ninguno,4,5.8,5,No,No,Sin riesgo
+29,Masculino,4,Empleado,7.6,Baja,12.0,Ocasional,29,1.3,3,No,No,Alto
+19,Masculino,3,Estudiante,5.9,Media,5.3,Ocasional,22,5.2,1,No,No,Moderado
+23,Masculino,3,Estudiante,8.1,Baja,6.8,Ninguno,19,8.6,0,No,Si,Sin riesgo
+32,Femenino,4,Estudiante,6.5,Baja,4.8,Frecuente,4,5.0,0,Si,No,Sin riesgo
+22,Femenino,3,Empleado,6.0,Baja,6.9,Ocasional,6,5.6,2,Si,No,Sin riesgo
+32,Masculino,2,Estudiante,5.2,Alta,1.9,Ninguno,19,8.3,1,No,Si,Sin riesgo
+26,Femenino,1,Empleado,7.1,Media,8.3,Frecuente,33,7.8,2,No,Si,Alto
+22,Masculino,2,Estudiante,8.0,Baja,7.3,Ninguno,14,8.2,1,No,No,Sin riesgo
+24,Femenino,3,Estudiante,7.2,Baja,6.4,Ninguno,25,0.0,1,No,No,Moderado
+27,Femenino,3,Desempleado,9.7,Media,5.5,Ninguno,16,9.8,0,No,No,Sin riesgo
+31,Masculino,3,Estudiante,8.7,Alta,4.2,Ninguno,19,7.4,0,No,Si,Sin riesgo
+28,Femenino,2,Estudiante,6.4,Baja,8.4,Ninguno,28,10.0,0,Si,No,Sin riesgo
+34,Masculino,4,Estudiante,6.4,Baja,3.5,Frecuente,17,4.3,3,Si,No,Alto
+33,Masculino,5,Desempleado,7.4,Baja,7.8,Ninguno,14,2.1,1,No,No,Sin riesgo
+31,Masculino,2,Empleado,5.7,Media,11.9,Ninguno,29,6.0,4,Si,No,Alto
+28,Femenino,3,Empleado,8.3,Alta,10.4,Ocasional,19,5.4,2,No,No,Moderado
+23,Femenino,3,Desempleado,7.3,Media,2.6,Ninguno,27,7.4,2,No,No,Sin riesgo
+25,Masculino,3,Estudiante,7.1,Baja,5.1,Ocasional,14,8.4,1,No,No,Sin riesgo
+20,Femenino,1,Desempleado,7.7,Media,7.6,Ninguno,29,5.8,3,Si,No,Alto
+24,Femenino,4,Estudiante,9.0,Media,6.3,Frecuente,21,5.5,4,No,No,Alto
+34,Femenino,5,Empleado,7.0,Baja,2.9,Ocasional,22,7.1,2,No,No,Sin riesgo
+25,Masculino,3,Empleado,6.7,Baja,7.5,Ninguno,20,5.4,0,No,No,Sin riesgo
+20,Femenino,5,Estudiante,8.8,Baja,6.5,Ninguno,15,5.3,2,No,No,Sin riesgo
+29,Femenino,6,Desempleado,8.1,Media,11.5,Ninguno,19,8.3,0,No,No,Sin riesgo
+35,Masculino,2,Estudiante,6.4,Media,5.8,Frecuente,16,8.8,0,No,Si,Sin riesgo
+33,Femenino,3,Desempleado,6.8,Media,9.5,Ocasional,26,8.4,2,No,No,Sin riesgo
+22,Masculino,2,Estudiante,7.1,Alta,3.2,Ninguno,18,5.6,3,No,No,Sin riesgo
+26,Masculino,6,Empleado,7.3,Baja,3.8,Ninguno,9,1.3,0,Si,No,Sin riesgo
+27,Masculino,1,Desempleado,5.0,Baja,8.4,Ocasional,7,5.7,0,No,No,Sin riesgo
+22,Masculino,2,Estudiante,4.8,Baja,9.3,Ninguno,7,4.3,3,No,Si,Moderado
+22,Femenino,4,Desempleado,5.6,Alta,4.0,Ocasional,23,5.7,0,No,No,Sin riesgo
+22,Femenino,2,Empleado,5.5,Media,6.6,Ocasional,11,4.5,0,No,Si,Sin riesgo
+35,Femenino,4,Independiente,6.0,Baja,2.9,Ninguno,21,6.0,2,No,No,Moderado
+31,Femenino,2,Estudiante,7.6,Baja,6.0,Ninguno,20,3.7,3,No,No,Moderado
+33,Masculino,6,Empleado,6.6,Media,8.7,Ninguno,19,3.2,1,Si,No,Moderado
+32,Masculino,4,Empleado,7.1,Media,5.4,Ninguno,22,8.7,1,No,No,Sin riesgo
+35,Masculino,2,Empleado,5.2,Media,5.9,Frecuente,20,3.9,1,Si,No,Alto
+19,Masculino,4,Estudiante,6.2,Baja,3.6,Ocasional,0,6.0,0,No,No,Sin riesgo
+33,Masculino,2,Estudiante,7.6,Alta,4.8,Ocasional,17,8.1,2,No,No,Sin riesgo
+19,Femenino,3,Independiente,7.6,Media,11.1,Ninguno,22,8.0,3,No,No,Moderado
+26,Femenino,3,Estudiante,5.9,Media,6.7,Ninguno,30,7.7,1,No,Si,Sin riesgo
+28,Masculino,4,Independiente,7.0,Media,3.9,Ocasional,31,6.7,0,No,No,Moderado
+24,Femenino,1,Desempleado,9.7,Alta,5.7,Ninguno,9,7.6,0,No,No,Sin riesgo
+20,Masculino,2,Estudiante,6.8,Alta,2.3,Ninguno,17,9.0,0,No,No,Sin riesgo
+21,Masculino,3,Estudiante,5.9,Media,3.9,Ninguno,8,6.9,0,No,No,Sin riesgo
+32,Masculino,3,Empleado,6.6,Media,10.0,Ocasional,30,2.0,0,No,Si,Alto
+23,Masculino,2,Estudiante,6.9,Baja,6.1,Ocasional,26,4.8,3,Si,No,Alto
+23,Masculino,1,Empleado,6.6,Alta,11.4,Ninguno,21,7.5,0,No,Si,Sin riesgo
+34,Masculino,2,Empleado,6.8,Media,6.3,Ocasional,20,4.6,2,Si,No,Alto
+20,Masculino,4,Empleado,4.9,Baja,6.4,Ninguno,29,9.6,1,No,No,Moderado
+34,Femenino,1,Estudiante,5.5,Baja,8.2,Ninguno,27,5.9,3,Si,No,Alto
+34,Femenino,2,Empleado,6.6,Alta,1.0,Ninguno,27,6.2,4,No,No,Moderado
+28,Masculino,5,Empleado,6.6,Alta,7.0,Ocasional,22,8.5,1,Si,No,Moderado
+20,Masculino,1,Estudiante,6.1,Alta,6.4,Ninguno,17,5.6,0,No,No,Sin riesgo
+20,Masculino,3,Empleado,6.6,Media,10.4,Ninguno,24,6.4,2,Si,Si,Moderado
+23,Masculino,2,Desempleado,6.9,Alta,9.0,Ninguno,25,8.0,0,No,No,Sin riesgo
+28,Masculino,4,Empleado,8.0,Alta,3.6,Ocasional,18,2.8,0,Si,No,Moderado
+20,Masculino,3,Empleado,6.7,Baja,9.7,Ocasional,17,5.4,0,No,No,Sin riesgo
+26,Masculino,4,Estudiante,7.3,Baja,5.8,Ninguno,27,7.8,3,No,No,Moderado
+20,Femenino,1,Estudiante,6.1,Alta,4.1,Frecuente,31,6.1,0,Si,No,Alto
+27,Femenino,3,Estudiante,7.5,Baja,7.0,Ninguno,14,9.2,1,No,No,Sin riesgo
+18,Femenino,4,Estudiante,7.3,Media,6.0,Ninguno,17,2.5,1,No,No,Sin riesgo
+30,Femenino,2,Desempleado,7.9,Media,10.5,Ninguno,21,2.3,2,No,No,Moderado
+18,Masculino,2,Estudiante,7.7,Media,7.4,Ocasional,22,7.7,0,No,No,Sin riesgo
+21,Femenino,1,Independiente,7.6,Baja,7.0,Ninguno,15,7.9,3,Si,Si,Moderado
+21,Femenino,5,Estudiante,6.7,Media,8.8,Ninguno,32,5.6,2,No,Si,Moderado
+32,Femenino,3,Estudiante,7.1,Baja,9.3,Ninguno,22,6.9,1,Si,No,Sin riesgo
+18,Masculino,3,Empleado,8.2,Alta,8.5,Ninguno,23,7.6,1,No,No,Sin riesgo
+25,Masculino,3,Estudiante,6.0,Baja,10.2,Ocasional,31,4.2,3,No,Si,Alto
+28,Femenino,3,Independiente,6.0,Media,8.1,Frecuente,16,4.4,2,No,No,Alto
+27,Masculino,2,Desempleado,7.0,Alta,6.9,Ninguno,18,6.4,1,Si,No,Sin riesgo
+30,Masculino,2,Independiente,7.3,Baja,9.7,Ocasional,10,8.0,1,No,No,Sin riesgo
+32,Masculino,3,Estudiante,5.7,Baja,6.3,Ninguno,18,3.4,0,Si,No,Moderado
+25,Masculino,1,Independiente,6.7,Media,6.6,Ninguno,9,5.6,0,No,No,Sin riesgo
+32,Masculino,4,Estudiante,6.7,Baja,11.0,Ninguno,24,5.5,0,No,No,Sin riesgo
+23,Femenino,4,Desempleado,3.9,Baja,10.7,Frecuente,22,6.9,0,Si,No,Alto
+35,Masculino,2,Empleado,6.5,Media,6.5,Ninguno,17,6.0,0,Si,Si,Sin riesgo
+27,Femenino,3,Estudiante,6.6,Alta,5.3,Ocasional,18,4.8,3,No,No,Moderado
+31,Femenino,1,Estudiante,6.6,Media,10.3,Ninguno,24,8.7,3,Si,No,Moderado
+33,Masculino,6,Estudiante,8.6,Baja,8.6,Ocasional,11,4.8,3,No,No,Moderado
+32,Masculino,5,Estudiante,5.2,Alta,7.3,Ninguno,20,5.4,2,No,No,Moderado
+33,Masculino,5,Desempleado,5.7,Media,5.7,Frecuente,24,2.5,2,No,Si,Alto
+27,Femenino,2,Independiente,3.4,Media,7.4,Ocasional,7,4.4,0,Si,No,Alto
+18,Femenino,1,Desempleado,6.2,Media,6.4,Ninguno,24,7.1,2,Si,No,Moderado
+26,Femenino,1,Estudiante,6.3,Baja,4.8,Ocasional,7,6.7,0,Si,No,Sin riesgo
+21,Masculino,1,Empleado,6.1,Baja,6.8,Ocasional,18,7.3,1,No,No,Sin riesgo
+34,Masculino,1,Estudiante,8.2,Media,7.2,Ninguno,11,7.2,4,No,No,Sin riesgo
+22,Masculino,1,Empleado,7.9,Baja,5.5,Ninguno,29,10.0,3,No,No,Moderado
+22,Masculino,6,Estudiante,6.9,Media,8.8,Ocasional,11,4.4,0,Si,No,Sin riesgo
+22,Femenino,1,Estudiante,6.3,Baja,9.9,Ocasional,7,2.4,2,No,Si,Sin riesgo
+29,Femenino,1,Empleado,8.1,Baja,9.0,Ninguno,20,3.7,0,No,No,Sin riesgo
+28,Femenino,4,Estudiante,6.8,Baja,5.8,Ocasional,16,4.5,0,No,No,Sin riesgo
+35,Femenino,3,Empleado,5.7,Media,8.5,Ninguno,8,3.9,0,No,No,Sin riesgo
+25,Femenino,4,Empleado,4.6,Media,6.7,Ninguno,23,6.2,0,No,No,Sin riesgo
+23,Femenino,3,Estudiante,6.2,Baja,3.3,Ninguno,5,8.8,2,No,Si,Sin riesgo
+18,Femenino,4,Desempleado,7.8,Baja,8.2,Ninguno,12,9.4,1,No,No,Sin riesgo
+18,Masculino,3,Empleado,9.8,Baja,6.9,Ninguno,15,7.1,0,No,No,Sin riesgo
+24,Femenino,3,Independiente,6.9,Alta,13.2,Ninguno,25,10.0,5,No,No,Sin riesgo
+34,Femenino,3,Empleado,5.8,Baja,10.3,Ninguno,28,5.2,1,No,No,Alto
+27,Femenino,2,Independiente,5.3,Media,8.3,Ninguno,27,2.4,1,No,No,Moderado
+34,Femenino,2,Independiente,7.5,Baja,7.1,Ocasional,18,8.3,1,No,No,Sin riesgo
+19,Masculino,2,Independiente,4.5,Baja,6.9,Ninguno,2,2.0,1,No,No,Sin riesgo
+19,Femenino,1,Empleado,7.5,Media,3.9,Ocasional,22,4.3,1,No,No,Moderado
+33,Femenino,4,Estudiante,7.9,Media,2.0,Ninguno,29,7.1,2,No,No,Sin riesgo
+19,Femenino,2,Estudiante,7.4,Baja,4.2,Ninguno,28,5.8,3,No,Si,Moderado
+18,Masculino,1,Empleado,6.5,Alta,6.4,Ninguno,22,5.6,1,No,No,Sin riesgo
+25,Masculino,2,Estudiante,7.5,Baja,1.0,Ocasional,11,3.4,1,Si,No,Sin riesgo
+34,Femenino,4,Estudiante,7.0,Baja,5.1,Ninguno,15,6.0,0,Si,No,Sin riesgo
+30,Femenino,2,Estudiante,5.8,Baja,5.9,Ninguno,33,8.2,3,No,No,Alto
+19,Femenino,3,Empleado,9.2,Media,5.9,Ocasional,9,6.0,1,Si,No,Sin riesgo
+33,Femenino,4,Estudiante,6.3,Alta,4.8,Ocasional,11,4.2,0,No,No,Sin riesgo
+33,Masculino,1,Empleado,7.8,Baja,5.6,Ocasional,26,3.3,5,Si,Si,Alto
+32,Masculino,4,Independiente,3.7,Alta,11.0,Ninguno,16,4.2,2,No,No,Moderado
+34,Masculino,2,Independiente,8.5,Media,8.2,Ninguno,11,6.9,0,No,Si,Sin riesgo
+22,Femenino,1,Estudiante,8.7,Alta,5.0,Ninguno,30,6.8,0,Si,No,Moderado
+35,Femenino,3,Empleado,6.8,Alta,6.3,Ocasional,22,4.2,1,Si,No,Moderado
+23,Femenino,5,Empleado,7.5,Alta,6.4,Ninguno,16,1.1,5,No,Si,Alto
+32,Femenino,2,Empleado,7.5,Media,4.5,Ninguno,11,6.9,1,No,No,Sin riesgo
+28,Masculino,3,Empleado,6.0,Baja,4.5,Ninguno,33,4.0,0,No,No,Moderado
+32,Femenino,2,Estudiante,7.5,Media,9.1,Ninguno,19,7.5,1,Si,No,Sin riesgo
+29,Femenino,3,Desempleado,5.7,Media,5.4,Ocasional,29,4.3,1,No,No,Alto
+29,Masculino,3,Estudiante,6.0,Media,3.7,Ninguno,25,3.8,0,Si,No,Moderado
+29,Femenino,3,Independiente,8.3,Media,6.4,Ninguno,15,6.3,3,Si,No,Sin riesgo
+32,Femenino,3,Empleado,8.1,Baja,6.8,Ninguno,15,10.0,0,No,No,Sin riesgo
+31,Femenino,1,Estudiante,5.9,Alta,1.4,Ninguno,29,7.6,3,Si,No,Moderado
+20,Femenino,3,Independiente,5.8,Baja,6.4,Ninguno,29,6.3,3,Si,No,Alto
+32,Femenino,3,Estudiante,6.0,Alta,8.8,Ninguno,6,6.8,0,No,No,Sin riesgo
+27,Femenino,3,Independiente,7.8,Baja,7.7,Ocasional,23,2.1,2,No,No,Alto
+23,Femenino,1,Empleado,5.5,Baja,12.3,Ocasional,18,3.5,2,No,No,Alto
+27,Femenino,2,Estudiante,7.3,Alta,9.8,Frecuente,12,0.5,2,No,No,Moderado
+35,Femenino,2,Estudiante,7.8,Alta,10.3,Frecuente,21,9.8,1,No,No,Sin riesgo
+33,Masculino,1,Independiente,6.7,Media,13.8,Ninguno,10,9.4,0,Si,No,Sin riesgo
+33,Femenino,2,Estudiante,8.1,Alta,8.5,Ninguno,16,6.9,0,Si,No,Sin riesgo
+26,Masculino,2,Desempleado,6.4,Baja,6.9,Ninguno,13,6.3,2,No,No,Sin riesgo
+32,Masculino,3,Independiente,6.5,Alta,9.0,Ocasional,16,2.6,0,No,No,Moderado
+24,Femenino,2,Empleado,5.5,Baja,5.0,Ninguno,18,5.5,0,No,No,Moderado
+30,Masculino,4,Estudiante,8.1,Media,6.8,Ninguno,12,9.9,1,No,No,Sin riesgo
+29,Femenino,3,Independiente,5.8,Media,4.8,Ninguno,30,6.3,0,No,No,Sin riesgo
+22,Femenino,4,Desempleado,7.3,Baja,7.5,Ninguno,22,4.8,3,No,No,Alto
+22,Femenino,2,Estudiante,6.7,Media,4.8,Ocasional,32,2.1,3,No,No,Alto
+19,Femenino,2,Estudiante,5.4,Media,4.7,Ocasional,18,9.0,3,No,No,Sin riesgo
+20,Femenino,3,Estudiante,6.0,Baja,7.6,Ninguno,15,5.8,0,Si,No,Sin riesgo
+25,Femenino,5,Estudiante,8.6,Alta,6.1,Frecuente,31,2.1,1,Si,No,Alto
+26,Masculino,2,Independiente,7.1,Media,1.5,Ninguno,15,4.0,3,No,Si,Sin riesgo
+20,Femenino,3,Empleado,5.5,Baja,2.7,Ninguno,18,3.2,1,No,Si,Moderado
+25,Masculino,3,Empleado,7.2,Media,3.5,Ninguno,24,5.7,2,Si,No,Moderado
+28,Masculino,3,Estudiante,6.6,Baja,4.2,Ocasional,10,6.5,2,No,No,Sin riesgo
+22,Masculino,1,Estudiante,10.0,Baja,7.6,Ninguno,24,4.9,1,No,Si,Moderado
+24,Femenino,3,Estudiante,7.2,Media,7.1,Ninguno,23,7.7,0,No,No,Sin riesgo
+24,Masculino,2,Independiente,6.3,Baja,9.3,Frecuente,28,6.2,2,No,No,Alto
+27,Masculino,5,Empleado,8.6,Baja,8.5,Ninguno,25,8.3,0,No,No,Sin riesgo
+24,Masculino,2,Estudiante,4.4,Media,9.3,Ninguno,28,5.2,3,Si,No,Alto
+31,Femenino,2,Independiente,6.9,Baja,8.1,Ocasional,18,10.0,1,No,No,Sin riesgo
+23,Masculino,5,Estudiante,9.4,Alta,7.0,Frecuente,13,4.8,0,Si,No,Sin riesgo
+25,Masculino,2,Estudiante,6.6,Alta,9.4,Ocasional,34,4.0,2,No,No,Alto
+24,Femenino,1,Estudiante,4.5,Baja,8.9,Frecuente,8,3.7,1,No,No,Moderado
+21,Femenino,1,Desempleado,6.3,Media,7.5,Ninguno,9,5.5,0,Si,No,Sin riesgo
+30,Femenino,1,Independiente,8.7,Baja,9.8,Ocasional,23,2.2,4,No,No,Alto
+22,Masculino,1,Empleado,7.3,Media,1.0,Ocasional,30,6.6,2,No,No,Moderado
+23,Femenino,2,Estudiante,5.7,Baja,5.7,Ninguno,20,1.8,2,No,Si,Alto
+32,Femenino,4,Estudiante,5.9,Alta,5.7,Ninguno,26,6.4,3,No,No,Moderado
+35,Masculino,3,Empleado,6.1,Baja,9.5,Frecuente,5,3.0,1,No,Si,Moderado
+30,Femenino,1,Estudiante,7.3,Media,10.6,Ninguno,16,5.2,1,No,No,Sin riesgo
+34,Femenino,3,Desempleado,8.5,Baja,2.7,Ninguno,6,7.3,0,No,No,Sin riesgo
+33,Masculino,1,Independiente,8.2,Baja,10.2,Ocasional,24,10.0,0,No,No,Sin riesgo
+26,Masculino,5,Empleado,7.4,Media,3.5,Frecuente,8,3.6,1,Si,No,Sin riesgo
+31,Masculino,1,Independiente,5.1,Media,3.5,Frecuente,10,5.7,1,Si,No,Moderado
+23,Masculino,3,Desempleado,5.1,Alta,5.9,Frecuente,23,4.4,2,No,No,Alto
+26,Femenino,2,Empleado,7.5,Baja,5.7,Ninguno,26,4.1,1,No,No,Moderado
+27,Masculino,3,Empleado,5.1,Baja,2.4,Frecuente,18,4.4,2,Si,No,Alto
+35,Masculino,2,Desempleado,6.5,Baja,8.2,Ninguno,23,7.8,3,No,No,Sin riesgo
+33,Femenino,4,Estudiante,7.2,Baja,8.3,Ocasional,23,4.9,5,Si,No,Alto
+26,Femenino,2,Desempleado,5.3,Alta,9.2,Ninguno,17,10.0,1,No,Si,Sin riesgo
+29,Femenino,5,Estudiante,5.5,Alta,5.4,Ocasional,11,6.9,4,Si,No,Moderado
+21,Femenino,3,Empleado,6.7,Alta,6.4,Ninguno,23,3.8,3,No,Si,Moderado
+32,Femenino,4,Independiente,7.5,Baja,6.4,Ocasional,23,5.2,0,Si,No,Moderado
+27,Femenino,4,Empleado,8.2,Media,10.9,Ninguno,25,4.2,1,No,No,Moderado
+27,Masculino,6,Empleado,7.6,Media,1.0,Ninguno,21,7.8,0,Si,No,Sin riesgo
+31,Femenino,2,Empleado,6.9,Baja,4.0,Ninguno,11,2.4,2,No,No,Sin riesgo
+29,Masculino,2,Estudiante,5.8,Media,6.5,Ninguno,24,3.0,1,No,No,Moderado
+19,Masculino,2,Estudiante,5.4,Baja,3.7,Ocasional,19,4.7,1,Si,No,Alto
+23,Masculino,2,Estudiante,6.1,Baja,5.8,Ninguno,16,7.5,2,No,No,Sin riesgo
+21,Masculino,3,Empleado,7.3,Alta,6.2,Ninguno,17,8.7,1,No,No,Sin riesgo
+31,Femenino,6,Empleado,7.2,Baja,4.8,Ninguno,14,9.0,1,No,No,Sin riesgo
+18,Masculino,6,Estudiante,4.1,Alta,6.7,Ninguno,25,7.2,3,No,No,Alto
+21,Femenino,3,Desempleado,5.8,Baja,8.1,Ocasional,9,5.8,5,No,No,Alto
+28,Masculino,3,Estudiante,8.4,Baja,5.9,Ninguno,12,7.7,2,No,Si,Sin riesgo
+30,Femenino,4,Empleado,6.9,Baja,5.3,Ninguno,17,3.5,0,No,No,Sin riesgo
+27,Femenino,5,Empleado,5.0,Baja,6.1,Ninguno,30,1.9,0,No,No,Alto
+33,Masculino,1,Estudiante,9.9,Media,6.5,Ninguno,26,7.0,0,Si,No,Sin riesgo
+34,Femenino,3,Independiente,6.8,Baja,2.0,Ocasional,8,3.8,1,No,No,Sin riesgo
+20,Masculino,4,Empleado,7.3,Media,7.7,Ninguno,28,5.9,0,Si,Si,Moderado
+35,Femenino,2,Estudiante,7.3,Alta,5.3,Ninguno,28,6.3,4,No,No,Moderado
+29,Femenino,2,Desempleado,6.3,Baja,9.8,Ocasional,11,6.5,2,Si,No,Moderado
+29,Masculino,6,Independiente,5.9,Baja,8.0,Ninguno,1,8.1,1,Si,No,Sin riesgo
+19,Masculino,6,Independiente,9.6,Media,9.5,Ninguno,18,7.8,0,No,No,Sin riesgo
+29,Femenino,5,Independiente,8.1,Alta,3.9,Ninguno,27,6.4,1,No,No,Sin riesgo
+31,Femenino,4,Desempleado,7.9,Media,5.5,Frecuente,30,5.0,1,Si,No,Alto
+28,Femenino,2,Estudiante,7.5,Baja,3.3,Ninguno,13,6.2,2,No,No,Sin riesgo
+19,Masculino,2,Empleado,5.5,Media,4.7,Ninguno,31,4.7,0,No,No,Moderado
+27,Masculino,3,Empleado,8.5,Media,9.8,Frecuente,3,5.6,3,No,No,Sin riesgo
+34,Femenino,3,Estudiante,5.7,Baja,10.4,Ocasional,16,10.0,0,No,No,Sin riesgo
+31,Femenino,3,Estudiante,7.2,Baja,3.5,Ocasional,16,6.4,0,Si,No,Sin riesgo
+20,Femenino,3,Estudiante,4.7,Alta,5.3,Frecuente,27,7.0,5,Si,No,Alto
+35,Femenino,2,Empleado,4.1,Baja,6.3,Ninguno,28,4.4,0,No,Si,Alto
+35,Masculino,3,Independiente,7.2,Baja,8.0,Ocasional,26,8.2,0,Si,No,Moderado
+21,Masculino,2,Independiente,5.7,Baja,1.9,Ocasional,10,7.7,2,No,No,Sin riesgo
+32,Femenino,2,Estudiante,4.2,Media,2.3,Ninguno,25,7.7,1,No,No,Moderado
+25,Masculino,1,Estudiante,7.5,Media,7.8,Ninguno,23,6.5,0,No,No,Sin riesgo
+28,Femenino,1,Empleado,9.6,Baja,1.4,Ninguno,7,8.3,0,No,No,Sin riesgo
+26,Femenino,4,Empleado,8.6,Media,5.3,Frecuente,5,8.8,0,No,No,Sin riesgo
+32,Femenino,2,Desempleado,6.5,Media,6.9,Ninguno,26,6.6,1,No,No,Sin riesgo
+35,Femenino,2,Independiente,6.8,Baja,7.6,Ninguno,18,5.7,0,Si,No,Sin riesgo
+32,Femenino,4,Desempleado,8.0,Alta,6.1,Ocasional,10,8.0,2,Si,No,Sin riesgo
+34,Masculino,3,Independiente,8.3,Baja,5.5,Ocasional,18,4.0,3,Si,No,Alto
+35,Masculino,1,Desempleado,6.4,Baja,8.7,Ninguno,22,4.4,0,No,No,Moderado
+19,Femenino,2,Empleado,6.8,Alta,7.2,Ocasional,18,5.9,1,No,No,Sin riesgo
+22,Masculino,1,Estudiante,7.2,Alta,4.8,Ninguno,8,2.2,0,No,No,Sin riesgo
+30,Masculino,3,Estudiante,7.5,Baja,6.6,Ocasional,32,7.8,0,No,No,Moderado
+28,Masculino,2,Estudiante,6.6,Alta,7.5,Ninguno,26,3.9,0,No,No,Moderado
+18,Masculino,1,Estudiante,6.6,Media,11.0,Ninguno,17,5.0,3,Si,No,Moderado
+19,Femenino,1,Estudiante,8.6,Baja,8.5,Ocasional,17,5.5,1,Si,No,Moderado
+27,Masculino,3,Desempleado,8.4,Alta,9.7,Ninguno,22,6.1,1,Si,No,Sin riesgo
+29,Masculino,1,Estudiante,7.4,Media,4.9,Ninguno,11,5.2,2,No,No,Sin riesgo
+21,Masculino,4,Desempleado,9.0,Baja,5.1,Ninguno,21,5.9,3,No,No,Moderado
+21,Femenino,1,Independiente,6.3,Media,5.9,Ocasional,10,5.9,1,No,No,Sin riesgo
+20,Femenino,3,Empleado,8.9,Baja,6.1,Frecuente,19,5.0,0,No,No,Moderado
+28,Femenino,2,Empleado,7.5,Baja,3.9,Ocasional,11,4.3,5,Si,No,Moderado
+18,Femenino,2,Estudiante,10.0,Alta,9.8,Frecuente,11,8.4,1,No,No,Sin riesgo
+28,Femenino,1,Empleado,5.2,Media,8.8,Frecuente,31,1.4,2,Si,No,Alto
+26,Femenino,4,Estudiante,5.9,Media,5.7,Ninguno,19,5.5,2,No,No,Sin riesgo
+26,Masculino,5,Desempleado,7.3,Media,8.2,Ninguno,20,5.0,1,No,No,Sin riesgo
+30,Femenino,1,Estudiante,7.3,Media,7.1,Frecuente,5,6.9,0,Si,No,Sin riesgo
+27,Masculino,1,Estudiante,9.3,Baja,8.4,Frecuente,15,2.8,0,Si,No,Alto
+31,Femenino,5,Independiente,5.9,Alta,3.0,Frecuente,22,4.9,1,Si,No,Moderado
+31,Masculino,3,Empleado,8.0,Media,6.1,Ocasional,20,5.8,1,Si,No,Moderado
+34,Femenino,1,Empleado,8.3,Media,6.3,Ninguno,4,8.4,2,No,No,Sin riesgo
+32,Masculino,1,Empleado,7.7,Media,8.1,Frecuente,20,6.7,2,No,No,Moderado
+27,Femenino,3,Estudiante,5.6,Baja,4.9,Frecuente,22,3.4,4,No,No,Alto
+26,Femenino,3,Empleado,8.6,Baja,1.0,Ocasional,28,4.9,5,No,No,Alto
+22,Femenino,3,Estudiante,8.4,Baja,3.7,Ocasional,14,7.9,2,No,No,Moderado
+28,Masculino,5,Estudiante,7.6,Baja,6.3,Ninguno,3,3.4,0,No,No,Sin riesgo
+20,Femenino,2,Estudiante,7.1,Media,6.7,Frecuente,12,5.8,1,No,No,Sin riesgo
+34,Masculino,2,Estudiante,7.1,Alta,10.9,Ninguno,11,6.0,2,Si,No,Sin riesgo
+33,Masculino,2,Estudiante,6.7,Baja,8.0,Ocasional,24,5.2,2,Si,No,Moderado
+20,Femenino,2,Empleado,7.6,Baja,6.7,Ninguno,0,10.0,0,No,No,Sin riesgo
+32,Femenino,2,Estudiante,6.8,Media,6.4,Ninguno,16,5.1,2,No,No,Sin riesgo
+20,Femenino,1,Estudiante,5.7,Baja,9.4,Ninguno,29,7.0,1,No,No,Moderado
+30,Femenino,2,Empleado,5.4,Alta,5.0,Ninguno,19,4.3,1,Si,No,Moderado
+19,Femenino,3,Estudiante,5.8,Baja,6.1,Ninguno,25,7.2,3,No,Si,Moderado
+26,Femenino,1,Empleado,7.1,Baja,3.7,Frecuente,8,7.9,1,No,No,Sin riesgo
+29,Masculino,2,Desempleado,6.8,Baja,10.2,Ninguno,8,4.7,1,No,No,Sin riesgo
+31,Femenino,3,Empleado,7.1,Alta,7.5,Frecuente,29,5.9,1,Si,No,Alto
+25,Femenino,3,Desempleado,7.5,Baja,4.7,Ninguno,20,4.0,1,Si,No,Moderado
+34,Masculino,4,Estudiante,6.0,Media,6.2,Ninguno,20,3.5,0,No,No,Sin riesgo
+31,Masculino,4,Estudiante,8.7,Baja,7.8,Ocasional,11,8.3,2,No,Si,Sin riesgo
+21,Femenino,3,Independiente,6.5,Baja,5.8,Ocasional,20,4.8,1,Si,No,Alto
+30,Femenino,1,Independiente,6.2,Alta,5.1,Ninguno,11,0.7,2,Si,No,Moderado
+31,Femenino,2,Independiente,7.4,Baja,4.8,Ocasional,27,9.9,0,No,Si,Sin riesgo
+24,Masculino,3,Estudiante,4.4,Baja,7.4,Ocasional,38,4.2,5,No,Si,Alto
+31,Masculino,2,Independiente,5.8,Media,5.6,Ninguno,22,5.5,2,No,Si,Moderado
+34,Femenino,1,Estudiante,8.1,Alta,5.3,Frecuente,15,9.6,1,No,Si,Sin riesgo
+32,Femenino,2,Estudiante,4.5,Baja,3.0,Ocasional,1,5.7,1,Si,No,Sin riesgo
+31,Femenino,2,Estudiante,8.3,Baja,6.7,Ocasional,7,5.6,1,Si,No,Sin riesgo
+29,Masculino,2,Desempleado,8.8,Alta,6.0,Ninguno,30,3.3,2,No,No,Moderado
+22,Femenino,1,Estudiante,6.3,Media,5.7,Ninguno,12,2.4,2,No,No,Sin riesgo
+32,Femenino,4,Independiente,7.2,Alta,7.0,Ninguno,16,5.6,2,Si,No,Sin riesgo
+24,Femenino,5,Empleado,8.3,Media,8.4,Ocasional,24,6.8,3,No,No,Moderado
+27,Femenino,1,Independiente,6.2,Media,8.3,Ocasional,29,6.7,1,Si,No,Moderado
+23,Masculino,5,Independiente,7.9,Baja,7.9,Ninguno,18,4.9,2,Si,No,Moderado
+23,Femenino,1,Independiente,5.9,Baja,5.9,Ocasional,16,6.0,1,No,No,Moderado
+20,Femenino,5,Estudiante,6.2,Media,5.0,Ninguno,20,2.0,2,Si,No,Alto
+35,Masculino,5,Estudiante,5.8,Media,3.8,Ninguno,15,7.0,1,Si,No,Sin riesgo
+20,Masculino,1,Empleado,7.2,Alta,5.0,Frecuente,15,6.4,2,No,No,Moderado
+19,Femenino,4,Estudiante,8.3,Media,6.6,Ninguno,22,10.0,0,No,No,Sin riesgo
+34,Femenino,6,Estudiante,6.6,Baja,4.5,Ninguno,20,6.0,0,No,No,Sin riesgo
+27,Masculino,5,Estudiante,5.1,Media,6.7,Ninguno,34,3.9,0,No,No,Moderado
+25,Femenino,6,Estudiante,5.4,Media,4.0,Ninguno,22,5.9,4,Si,No,Alto
+31,Masculino,3,Estudiante,7.3,Media,2.2,Ocasional,27,5.3,1,No,No,Moderado
+24,Masculino,1,Estudiante,9.2,Alta,8.6,Frecuente,12,7.0,1,No,No,Sin riesgo
+20,Masculino,4,Desempleado,7.3,Media,5.3,Ninguno,23,6.1,1,Si,No,Moderado
+31,Femenino,3,Estudiante,6.3,Baja,4.3,Ninguno,14,3.2,1,No,Si,Moderado
+21,Masculino,3,Desempleado,7.8,Media,3.7,Ninguno,22,2.4,3,No,No,Moderado
+27,Masculino,2,Desempleado,6.5,Media,7.6,Ninguno,24,6.6,4,No,No,Moderado
+35,Femenino,3,Estudiante,6.3,Alta,10.1,Ninguno,19,9.0,3,No,No,Sin riesgo
+34,Masculino,1,Independiente,5.6,Media,5.5,Ninguno,36,6.2,3,No,No,Alto
+24,Masculino,3,Empleado,8.6,Media,5.9,Ocasional,29,7.8,0,No,Si,Sin riesgo
+32,Masculino,1,Empleado,3.5,Media,9.3,Ninguno,27,8.2,0,Si,Si,Alto
+29,Femenino,3,Estudiante,7.8,Media,1.8,Ninguno,24,6.6,2,No,No,Sin riesgo
+26,Femenino,4,Estudiante,6.2,Baja,11.6,Ninguno,31,4.2,2,No,Si,Moderado
+20,Masculino,2,Estudiante,6.3,Alta,12.9,Ocasional,9,6.4,0,No,No,Sin riesgo
+24,Femenino,3,Empleado,9.0,Alta,1.0,Ninguno,29,8.7,2,No,No,Sin riesgo
+29,Masculino,2,Desempleado,5.9,Media,6.2,Ninguno,12,7.2,0,Si,No,Sin riesgo
+35,Masculino,5,Empleado,5.9,Media,4.6,Ocasional,15,7.6,0,Si,No,Sin riesgo
+18,Masculino,3,Independiente,6.6,Baja,5.8,Ninguno,23,5.0,1,No,Si,Sin riesgo
+30,Femenino,2,Desempleado,7.3,Media,5.4,Frecuente,28,5.6,3,No,No,Alto
+33,Masculino,1,Empleado,6.2,Media,8.6,Ninguno,11,5.7,2,Si,No,Sin riesgo
+35,Femenino,1,Estudiante,4.8,Media,6.2,Ocasional,15,5.9,1,No,No,Sin riesgo
+25,Masculino,2,Independiente,5.7,Baja,4.1,Frecuente,20,8.6,3,No,No,Moderado
+20,Femenino,5,Estudiante,8.5,Media,6.1,Ninguno,18,0.8,3,No,No,Moderado
+22,Femenino,3,Estudiante,6.9,Baja,7.8,Ocasional,25,6.1,1,Si,Si,Alto
+33,Masculino,1,Empleado,7.4,Media,3.4,Ninguno,40,5.8,3,No,No,Alto
+33,Masculino,4,Desempleado,6.5,Media,2.2,Ocasional,22,3.0,0,No,No,Moderado
+29,Masculino,2,Estudiante,5.9,Baja,11.7,Frecuente,14,7.5,1,No,No,Moderado
+20,Femenino,4,Empleado,9.0,Media,4.8,Ocasional,10,4.4,0,Si,No,Sin riesgo
+20,Masculino,2,Estudiante,6.6,Alta,6.1,Frecuente,17,5.2,1,No,No,Sin riesgo
+26,Masculino,3,Estudiante,6.2,Media,5.5,Ninguno,12,10.0,1,No,No,Sin riesgo
+28,Masculino,5,Estudiante,8.2,Baja,7.9,Ninguno,22,8.2,0,No,No,Sin riesgo
+18,Masculino,2,Independiente,5.9,Media,11.1,Ninguno,22,7.3,1,No,No,Sin riesgo
+30,Femenino,3,Independiente,6.0,Baja,8.0,Ocasional,16,6.8,2,Si,No,Moderado
+27,Femenino,6,Estudiante,6.8,Media,2.6,Frecuente,33,5.6,2,No,No,Alto
+18,Masculino,1,Estudiante,6.8,Media,2.9,Ocasional,14,10.0,0,No,No,Sin riesgo
+19,Masculino,1,Estudiante,7.1,Baja,5.5,Ninguno,18,7.8,0,No,No,Sin riesgo
+26,Femenino,3,Estudiante,9.5,Media,5.8,Ninguno,23,4.4,1,No,No,Sin riesgo
+31,Femenino,2,Empleado,7.2,Media,2.0,Ocasional,25,2.9,3,Si,No,Alto
+32,Masculino,1,Empleado,3.7,Media,8.6,Frecuente,28,7.2,3,No,Si,Alto
+25,Masculino,2,Empleado,7.2,Baja,3.7,Ninguno,22,5.9,1,No,No,Sin riesgo
+23,Femenino,4,Estudiante,6.8,Baja,10.4,Ninguno,26,2.9,2,No,Si,Alto
+35,Masculino,2,Empleado,6.9,Media,11.2,Ninguno,14,6.9,1,No,No,Sin riesgo
+26,Masculino,2,Estudiante,7.1,Baja,5.9,Ninguno,25,5.4,5,No,No,Alto
+23,Femenino,4,Estudiante,6.8,Media,7.6,Frecuente,25,7.2,0,No,No,Moderado
+25,Femenino,3,Desempleado,6.7,Baja,3.3,Ninguno,30,7.0,1,No,No,Sin riesgo
+18,Masculino,4,Independiente,7.6,Baja,8.1,Ninguno,7,4.7,2,Si,No,Sin riesgo
+23,Femenino,2,Desempleado,6.1,Media,5.2,Ninguno,13,7.4,1,Si,No,Sin riesgo
+27,Femenino,5,Desempleado,5.6,Baja,3.7,Ninguno,25,4.9,0,No,No,Sin riesgo
+34,Femenino,3,Empleado,10.0,Media,5.7,Frecuente,0,5.0,0,Si,No,Sin riesgo
+31,Masculino,1,Desempleado,5.9,Baja,5.3,Ninguno,22,4.8,1,No,No,Moderado
+32,Femenino,4,Empleado,6.9,Media,5.7,Ninguno,26,8.5,2,Si,No,Sin riesgo
+27,Femenino,2,Estudiante,4.9,Baja,9.0,Ninguno,15,5.4,2,Si,No,Moderado
+19,Femenino,1,Estudiante,7.0,Alta,4.5,Frecuente,16,9.0,0,No,No,Sin riesgo
+25,Masculino,1,Estudiante,5.6,Alta,11.0,Frecuente,11,9.9,3,No,No,Sin riesgo
+35,Masculino,3,Estudiante,6.2,Baja,3.1,Ninguno,15,4.4,1,No,No,Sin riesgo
+18,Femenino,1,Estudiante,8.2,Media,10.7,Ocasional,16,0.0,4,No,No,Alto
+33,Femenino,2,Independiente,7.4,Baja,3.9,Ninguno,14,8.3,0,No,No,Sin riesgo
+30,Femenino,1,Independiente,7.5,Media,6.5,Ninguno,14,5.2,3,No,No,Sin riesgo
+23,Masculino,2,Empleado,4.5,Baja,5.2,Ninguno,17,4.1,4,Si,No,Alto
+32,Masculino,2,Estudiante,9.2,Media,5.6,Ocasional,17,4.7,3,No,No,Moderado
+33,Femenino,3,Independiente,5.3,Baja,8.6,Frecuente,32,5.1,3,No,No,Alto
+18,Femenino,2,Estudiante,8.8,Alta,10.4,Ninguno,16,8.9,1,No,No,Sin riesgo
+19,Masculino,1,Estudiante,8.1,Media,9.6,Ninguno,21,6.4,2,No,No,Sin riesgo
+29,Masculino,3,Estudiante,7.6,Media,5.4,Ninguno,15,8.8,1,No,No,Sin riesgo
+35,Femenino,2,Estudiante,5.7,Baja,7.0,Ninguno,15,7.1,1,No,Si,Sin riesgo
+18,Femenino,3,Estudiante,7.0,Baja,4.5,Ninguno,7,5.3,5,No,No,Sin riesgo
+29,Masculino,1,Independiente,6.2,Baja,3.9,Ninguno,8,5.1,0,No,No,Sin riesgo
+20,Masculino,1,Independiente,6.8,Alta,3.5,Frecuente,11,7.2,1,No,No,Sin riesgo
+29,Masculino,2,Empleado,6.5,Alta,5.4,Ninguno,20,7.8,4,No,No,Sin riesgo
+29,Femenino,2,Estudiante,4.1,Baja,7.1,Ocasional,27,8.2,0,Si,No,Alto
+19,Femenino,2,Independiente,8.3,Media,1.5,Ninguno,6,5.4,0,No,No,Sin riesgo
+30,Masculino,4,Empleado,6.7,Media,6.4,Ninguno,15,6.4,1,Si,No,Sin riesgo
+34,Masculino,2,Estudiante,6.2,Baja,10.4,Ninguno,9,7.3,2,No,No,Sin riesgo
+33,Masculino,3,Empleado,6.1,Media,9.4,Frecuente,17,5.2,3,No,No,Alto
+18,Femenino,3,Empleado,7.3,Baja,5.0,Ninguno,27,3.5,0,Si,No,Alto
+22,Masculino,1,Empleado,5.6,Baja,2.9,Ninguno,16,4.2,2,Si,No,Alto
+22,Femenino,3,Estudiante,3.9,Media,7.7,Ocasional,19,5.5,1,No,Si,Moderado
+26,Femenino,2,Empleado,7.3,Baja,1.0,Ocasional,29,7.5,2,No,No,Moderado
+20,Masculino,2,Estudiante,7.5,Alta,9.4,Ocasional,22,8.8,2,No,No,Sin riesgo
+33,Masculino,1,Estudiante,6.5,Media,5.9,Ninguno,14,3.0,4,Si,No,Alto
+31,Masculino,4,Estudiante,5.3,Alta,11.3,Ninguno,20,4.7,1,No,No,Moderado
+32,Masculino,5,Desempleado,6.9,Media,2.0,Ocasional,13,5.2,0,No,No,Sin riesgo
+21,Femenino,1,Estudiante,4.9,Alta,8.9,Ocasional,22,7.7,2,No,No,Moderado
+18,Masculino,3,Estudiante,5.5,Baja,6.2,Ocasional,23,4.8,1,Si,No,Alto
+34,Femenino,4,Estudiante,5.8,Media,5.6,Ninguno,9,5.1,1,No,No,Sin riesgo
+23,Femenino,2,Desempleado,7.9,Media,2.9,Ninguno,20,2.9,0,No,No,Moderado
+29,Masculino,4,Empleado,6.3,Alta,8.0,Frecuente,18,7.1,0,No,No,Sin riesgo
+34,Masculino,3,Desempleado,6.2,Baja,8.3,Ocasional,23,5.6,4,No,Si,Alto
+18,Masculino,5,Estudiante,9.3,Media,11.1,Ninguno,25,4.6,0,No,No,Sin riesgo
+18,Femenino,6,Estudiante,7.3,Media,9.1,Frecuente,22,5.4,2,No,No,Alto
+18,Masculino,1,Empleado,7.2,Baja,5.0,Ninguno,17,8.5,2,Si,No,Sin riesgo
+20,Femenino,2,Estudiante,6.3,Alta,3.9,Ninguno,26,3.8,0,Si,No,Moderado
+18,Masculino,3,Independiente,6.0,Baja,2.9,Ninguno,13,4.1,0,No,No,Sin riesgo
+32,Masculino,1,Independiente,4.0,Baja,10.3,Ocasional,10,8.8,1,Si,No,Sin riesgo
+28,Masculino,2,Empleado,8.1,Media,4.5,Ninguno,0,6.2,1,No,No,Sin riesgo
+35,Femenino,6,Desempleado,7.4,Media,10.3,Ninguno,19,7.5,1,No,No,Sin riesgo
+32,Femenino,1,Empleado,6.6,Baja,7.9,Ocasional,13,6.9,2,No,No,Sin riesgo
+35,Femenino,2,Estudiante,6.6,Baja,7.4,Ninguno,22,5.9,0,Si,No,Moderado
+22,Masculino,4,Empleado,7.8,Baja,5.7,Frecuente,5,5.2,0,Si,No,Sin riesgo
+23,Masculino,2,Estudiante,4.8,Media,8.2,Ninguno,14,7.8,0,No,No,Sin riesgo
+33,Femenino,2,Independiente,6.0,Alta,6.5,Ninguno,22,8.6,1,No,No,Sin riesgo
+22,Masculino,6,Estudiante,5.3,Media,5.5,Ocasional,12,8.4,1,Si,No,Sin riesgo
+19,Masculino,2,Estudiante,9.1,Baja,8.3,Ocasional,22,3.4,4,No,Si,Alto
+30,Femenino,1,Empleado,7.9,Media,6.1,Ninguno,15,8.9,0,Si,No,Sin riesgo
+32,Femenino,1,Estudiante,3.9,Alta,4.4,Ocasional,19,5.2,1,Si,No,Moderado
+35,Masculino,5,Estudiante,4.8,Media,8.1,Frecuente,23,4.3,1,No,No,Alto
+34,Masculino,2,Empleado,6.6,Baja,6.3,Ocasional,26,5.6,2,No,No,Moderado
+20,Femenino,3,Estudiante,6.2,Baja,7.8,Ocasional,20,7.8,2,No,No,Moderado
+31,Masculino,1,Empleado,5.1,Alta,5.3,Ninguno,13,7.2,0,No,Si,Sin riesgo
+33,Masculino,2,Estudiante,9.3,Alta,3.4,Ninguno,16,5.4,2,No,No,Sin riesgo
+30,Masculino,5,Estudiante,7.2,Baja,11.0,Ninguno,23,7.8,1,Si,No,Moderado
+32,Masculino,3,Estudiante,7.4,Alta,10.5,Ninguno,12,6.3,2,No,No,Sin riesgo
+33,Masculino,6,Independiente,5.9,Baja,8.8,Ocasional,18,4.7,0,Si,No,Moderado
+26,Femenino,2,Desempleado,7.7,Baja,5.5,Ninguno,16,4.4,2,No,Si,Moderado
+18,Femenino,3,Estudiante,6.3,Media,5.7,Ninguno,18,6.9,2,No,No,Sin riesgo
+26,Femenino,4,Desempleado,6.4,Media,10.1,Ninguno,12,5.8,2,No,No,Sin riesgo
+21,Masculino,2,Empleado,7.6,Media,5.6,Ninguno,6,3.0,0,Si,No,Sin riesgo
+20,Femenino,2,Empleado,4.7,Alta,4.9,Ninguno,23,7.9,2,No,No,Moderado
+20,Femenino,4,Independiente,8.9,Alta,11.4,Ocasional,26,4.9,2,No,No,Alto
+30,Masculino,2,Independiente,7.0,Baja,6.4,Ninguno,6,9.5,1,No,Si,Sin riesgo
+27,Femenino,3,Independiente,8.5,Media,11.1,Ninguno,22,2.9,1,No,No,Moderado
+27,Femenino,6,Empleado,5.4,Media,2.9,Ninguno,27,5.6,0,No,No,Moderado
+31,Femenino,1,Empleado,5.6,Media,7.8,Ocasional,23,4.5,0,No,No,Moderado
+27,Femenino,2,Estudiante,5.3,Alta,11.9,Ninguno,16,3.9,2,No,No,Moderado
+29,Femenino,1,Estudiante,7.1,Media,6.6,Ninguno,12,4.9,1,No,No,Sin riesgo
+19,Masculino,2,Empleado,6.9,Baja,5.8,Ninguno,20,9.9,2,No,No,Sin riesgo
+33,Femenino,1,Estudiante,6.2,Baja,3.5,Ninguno,21,6.3,2,No,No,Moderado
+26,Femenino,3,Estudiante,5.5,Alta,9.3,Frecuente,20,4.3,2,No,No,Alto
+20,Masculino,1,Estudiante,5.2,Alta,4.5,Ocasional,18,2.0,2,No,Si,Alto
+32,Femenino,3,Estudiante,6.7,Baja,6.3,Frecuente,11,2.2,2,No,No,Alto
+31,Masculino,2,Empleado,6.2,Baja,3.3,Ocasional,22,4.8,1,No,No,Moderado
+18,Masculino,2,Empleado,5.9,Media,10.5,Ninguno,22,4.6,0,No,Si,Sin riesgo
+21,Masculino,2,Empleado,8.8,Baja,9.5,Ninguno,20,5.5,3,No,No,Moderado
+18,Femenino,3,Estudiante,6.7,Baja,6.4,Ninguno,20,1.0,4,No,No,Alto
+22,Femenino,2,Empleado,8.5,Alta,3.5,Ninguno,31,5.8,1,No,No,Moderado
+19,Masculino,2,Estudiante,6.1,Alta,10.5,Ninguno,15,8.3,4,No,Si,Sin riesgo
+30,Femenino,4,Independiente,7.1,Alta,5.5,Ninguno,28,9.6,5,Si,No,Alto
+27,Masculino,3,Empleado,6.7,Media,3.6,Ninguno,14,1.8,1,Si,No,Moderado
+35,Femenino,1,Empleado,4.6,Baja,1.9,Ninguno,27,4.2,2,Si,No,Alto
+31,Femenino,5,Empleado,8.7,Alta,4.8,Ocasional,28,4.1,2,No,No,Alto
+29,Masculino,2,Desempleado,6.6,Baja,2.7,Ocasional,17,6.3,0,No,No,Sin riesgo
+27,Masculino,1,Independiente,7.8,Baja,4.9,Frecuente,31,3.3,0,No,No,Alto
+18,Masculino,2,Empleado,5.8,Alta,8.4,Ninguno,22,9.7,1,Si,Si,Sin riesgo
+19,Masculino,1,Empleado,6.6,Media,5.5,Ninguno,13,6.1,3,No,No,Sin riesgo
+29,Femenino,2,Estudiante,5.7,Alta,7.4,Frecuente,16,5.7,1,No,No,Sin riesgo
+18,Masculino,3,Desempleado,8.4,Baja,4.6,Ocasional,27,9.5,3,No,No,Moderado
+18,Masculino,1,Estudiante,7.2,Alta,6.7,Ninguno,25,6.0,2,Si,No,Moderado
+21,Femenino,4,Estudiante,7.3,Media,11.5,Ninguno,12,6.9,2,Si,No,Sin riesgo
+33,Femenino,5,Desempleado,8.6,Media,5.6,Ninguno,18,4.3,0,Si,No,Sin riesgo
+26,Masculino,3,Independiente,8.3,Alta,7.5,Frecuente,20,3.0,1,No,Si,Moderado
+30,Femenino,3,Estudiante,7.8,Baja,2.4,Ocasional,15,4.7,0,No,No,Sin riesgo
+25,Masculino,3,Estudiante,5.0,Media,10.5,Ninguno,36,10.0,0,Si,No,Moderado
+21,Femenino,6,Estudiante,5.9,Media,5.3,Ninguno,21,7.4,0,No,No,Sin riesgo
+24,Femenino,2,Empleado,5.5,Alta,9.2,Ninguno,19,6.6,0,Si,No,Sin riesgo
+19,Femenino,1,Estudiante,7.7,Alta,6.2,Ninguno,27,3.9,0,No,Si,Sin riesgo
+31,Femenino,3,Desempleado,7.0,Media,8.1,Ocasional,16,8.0,2,Si,No,Sin riesgo
+21,Masculino,3,Desempleado,5.0,Baja,8.2,Ninguno,26,3.0,1,Si,Si,Alto
+24,Masculino,1,Empleado,6.6,Baja,5.3,Ninguno,7,2.6,0,Si,Si,Sin riesgo
+35,Masculino,3,Empleado,4.9,Alta,9.3,Ninguno,16,4.8,3,No,No,Moderado
+28,Masculino,1,Estudiante,6.7,Alta,4.5,Frecuente,26,10.0,1,No,No,Sin riesgo
+26,Femenino,5,Estudiante,4.6,Alta,8.5,Ninguno,30,10.0,4,No,No,Moderado
+27,Masculino,2,Independiente,7.5,Baja,5.5,Ninguno,14,5.0,2,Si,No,Sin riesgo
+32,Masculino,1,Estudiante,7.3,Baja,7.4,Ocasional,13,4.5,0,No,Si,Sin riesgo
+22,Masculino,1,Estudiante,9.3,Media,5.3,Ocasional,23,2.4,4,No,Si,Alto
+29,Masculino,2,Estudiante,7.9,Media,6.6,Ocasional,15,6.2,3,No,Si,Sin riesgo
+33,Masculino,2,Estudiante,6.3,Baja,3.7,Ocasional,17,6.4,2,Si,No,Moderado
+28,Masculino,1,Empleado,7.9,Media,7.1,Ninguno,25,7.7,1,No,No,Sin riesgo
+26,Masculino,2,Independiente,5.0,Baja,6.6,Frecuente,15,8.0,1,No,No,Moderado
+20,Masculino,1,Independiente,5.5,Media,5.1,Frecuente,5,5.6,1,No,No,Sin riesgo
+22,Masculino,2,Empleado,7.2,Baja,6.4,Ninguno,10,7.2,2,No,No,Sin riesgo
+35,Femenino,2,Independiente,4.0,Baja,6.8,Ocasional,19,4.5,1,No,No,Alto
+27,Femenino,2,Empleado,6.8,Baja,4.9,Ninguno,6,7.2,0,No,Si,Sin riesgo
+23,Masculino,2,Independiente,5.5,Alta,6.2,Ninguno,17,4.9,0,Si,No,Sin riesgo
+25,Femenino,1,Empleado,6.9,Media,3.9,Ninguno,9,7.0,0,Si,No,Sin riesgo
+28,Femenino,1,Estudiante,5.4,Alta,12.6,Ninguno,30,6.8,0,No,No,Moderado
+27,Masculino,1,Desempleado,7.4,Media,9.3,Frecuente,34,6.2,1,Si,No,Alto
+30,Masculino,4,Estudiante,6.8,Media,7.2,Ninguno,12,7.7,3,No,Si,Sin riesgo
+22,Masculino,6,Estudiante,8.6,Baja,9.5,Ninguno,21,2.5,0,No,No,Moderado
+29,Femenino,5,Estudiante,6.8,Media,1.4,Ninguno,12,3.7,1,Si,No,Sin riesgo
+25,Femenino,3,Estudiante,5.8,Baja,1.0,Ninguno,17,5.4,0,Si,Si,Sin riesgo
+34,Masculino,3,Estudiante,6.5,Media,5.5,Ninguno,32,2.8,1,No,No,Alto
+20,Masculino,2,Empleado,5.1,Alta,2.9,Ninguno,16,5.1,2,No,No,Moderado
+20,Femenino,4,Desempleado,7.3,Alta,5.9,Ocasional,17,5.2,1,No,No,Sin riesgo
+26,Masculino,4,Estudiante,7.6,Baja,7.0,Frecuente,12,8.9,4,No,No,Sin riesgo
+27,Femenino,4,Empleado,10.0,Media,8.9,Ninguno,27,6.3,5,No,No,Alto
+30,Masculino,5,Estudiante,6.0,Baja,3.5,Frecuente,0,8.3,3,No,Si,Sin riesgo
+25,Masculino,2,Independiente,6.5,Baja,7.5,Ocasional,16,6.7,3,No,Si,Sin riesgo
+34,Masculino,4,Estudiante,6.1,Media,6.5,Ocasional,19,4.8,1,No,No,Moderado
+26,Masculino,4,Estudiante,7.1,Media,7.4,Ninguno,14,6.3,1,Si,No,Sin riesgo
+20,Femenino,2,Empleado,7.3,Media,5.1,Ninguno,25,7.6,1,No,No,Sin riesgo
+20,Femenino,5,Empleado,6.7,Baja,10.1,Ocasional,27,8.6,3,No,No,Alto
+35,Femenino,1,Independiente,8.2,Alta,6.2,Ninguno,9,5.7,0,Si,No,Sin riesgo
+20,Masculino,6,Empleado,6.0,Alta,11.1,Ninguno,34,2.4,0,No,No,Moderado
+35,Masculino,4,Independiente,8.1,Media,4.4,Ocasional,9,2.2,0,No,No,Sin riesgo
+23,Masculino,1,Estudiante,7.5,Alta,8.4,Ninguno,28,5.3,2,Si,No,Moderado
+19,Femenino,3,Estudiante,6.8,Baja,6.3,Ocasional,20,0.9,2,No,No,Alto
+23,Femenino,1,Estudiante,6.4,Media,5.6,Ninguno,15,9.9,0,Si,No,Sin riesgo
+29,Masculino,4,Estudiante,10.0,Alta,8.1,Frecuente,16,7.3,1,Si,No,Sin riesgo
+25,Masculino,4,Estudiante,5.7,Alta,5.7,Ninguno,19,4.6,1,No,No,Sin riesgo
+32,Masculino,3,Empleado,7.2,Alta,1.0,Ninguno,20,3.6,3,No,No,Sin riesgo
+28,Femenino,4,Estudiante,5.8,Media,1.0,Ocasional,13,8.3,0,No,Si,Sin riesgo
+25,Femenino,1,Empleado,9.1,Alta,9.8,Ninguno,17,3.5,0,No,No,Sin riesgo
+29,Masculino,2,Empleado,8.0,Media,9.7,Frecuente,14,3.8,2,No,No,Moderado
+35,Masculino,2,Empleado,5.9,Baja,11.4,Ocasional,10,4.3,2,No,No,Moderado
+25,Femenino,1,Empleado,7.5,Baja,6.5,Ninguno,13,6.3,3,No,Si,Sin riesgo
+20,Masculino,2,Estudiante,7.1,Media,3.1,Ninguno,11,7.4,2,No,No,Sin riesgo
+25,Femenino,2,Estudiante,6.1,Media,5.4,Frecuente,16,8.6,4,No,No,Moderado
+33,Femenino,2,Empleado,7.8,Media,6.5,Ocasional,22,8.3,1,No,No,Sin riesgo
+21,Masculino,2,Empleado,7.3,Alta,3.9,Frecuente,20,6.0,1,No,Si,Moderado
+35,Masculino,4,Estudiante,7.1,Media,10.8,Ninguno,33,8.2,5,No,No,Alto
+28,Masculino,2,Estudiante,6.7,Baja,12.3,Frecuente,4,4.5,0,Si,Si,Sin riesgo
+28,Femenino,5,Empleado,7.4,Media,7.7,Ninguno,22,2.0,3,No,No,Moderado
+23,Masculino,2,Empleado,7.1,Media,6.5,Ocasional,19,4.5,0,No,No,Sin riesgo
+34,Masculino,2,Estudiante,6.9,Media,3.1,Ninguno,25,4.2,1,No,No,Sin riesgo
+18,Masculino,3,Empleado,6.0,Media,10.5,Ninguno,24,4.6,0,No,No,Moderado
+23,Femenino,2,Desempleado,9.0,Media,6.7,Frecuente,18,3.9,2,No,No,Alto
+25,Masculino,2,Estudiante,5.4,Media,5.7,Frecuente,20,5.0,3,No,No,Alto
+26,Masculino,3,Independiente,7.4,Media,7.8,Ninguno,14,7.4,0,No,No,Sin riesgo
+26,Masculino,1,Estudiante,6.4,Alta,5.0,Frecuente,23,9.8,0,No,No,Sin riesgo
+20,Femenino,2,Empleado,9.1,Baja,6.9,Ninguno,6,2.2,1,Si,Si,Sin riesgo
+22,Masculino,3,Empleado,5.6,Media,2.7,Ninguno,24,3.2,0,Si,No,Moderado
+19,Femenino,2,Estudiante,5.8,Media,9.3,Ninguno,19,4.3,1,No,Si,Moderado
+28,Femenino,4,Desempleado,5.5,Baja,6.2,Ninguno,16,7.7,4,No,No,Moderado
+24,Masculino,2,Empleado,7.2,Media,9.5,Ninguno,17,5.5,0,Si,No,Sin riesgo
+28,Femenino,5,Desempleado,5.0,Media,6.0,Ninguno,18,4.4,1,Si,No,Moderado
+28,Masculino,4,Estudiante,6.2,Media,6.1,Ninguno,28,7.6,1,No,No,Moderado
+30,Femenino,5,Independiente,4.0,Alta,3.3,Ocasional,40,8.1,0,No,No,Alto
+27,Masculino,4,Desempleado,7.1,Baja,8.5,Ocasional,28,6.0,0,No,No,Moderado
+29,Masculino,1,Empleado,6.1,Baja,4.2,Ocasional,15,4.2,2,No,No,Moderado
+28,Masculino,3,Estudiante,4.9,Baja,5.2,Ninguno,23,6.6,2,No,No,Moderado
+29,Femenino,1,Empleado,8.2,Media,6.5,Ocasional,24,5.5,3,No,No,Moderado
+29,Femenino,4,Empleado,5.1,Media,6.8,Ninguno,13,5.5,1,No,No,Sin riesgo
+23,Femenino,3,Desempleado,7.8,Alta,2.1,Ocasional,10,4.9,2,Si,No,Sin riesgo
+22,Femenino,2,Empleado,5.9,Media,5.9,Ninguno,19,8.0,3,No,Si,Moderado
+32,Masculino,5,Estudiante,8.9,Baja,8.6,Ninguno,25,6.5,3,Si,Si,Moderado
+24,Femenino,1,Estudiante,7.8,Baja,5.5,Ninguno,8,8.3,4,Si,No,Sin riesgo
+27,Femenino,3,Empleado,5.5,Baja,5.9,Ocasional,14,8.9,0,Si,No,Sin riesgo
+21,Femenino,3,Desempleado,5.6,Media,6.9,Frecuente,23,7.0,5,Si,No,Alto
+25,Femenino,1,Estudiante,7.6,Baja,6.2,Ocasional,19,4.9,3,No,Si,Moderado
+27,Masculino,3,Independiente,6.5,Media,3.8,Frecuente,29,8.3,3,No,No,Moderado
+29,Masculino,4,Desempleado,6.6,Alta,6.4,Frecuente,9,7.0,2,No,No,Sin riesgo
+27,Femenino,1,Estudiante,8.5,Media,9.1,Ninguno,35,10.0,5,No,No,Alto
+24,Masculino,3,Estudiante,5.8,Baja,3.8,Ocasional,8,6.7,1,No,No,Sin riesgo
+35,Masculino,2,Empleado,6.9,Baja,5.5,Ninguno,5,7.5,2,Si,No,Sin riesgo
+27,Femenino,3,Empleado,8.0,Media,2.9,Ninguno,19,6.6,2,No,No,Sin riesgo
+32,Femenino,1,Estudiante,7.9,Media,8.9,Ninguno,11,5.8,2,No,No,Sin riesgo
+31,Femenino,5,Independiente,6.6,Baja,6.3,Frecuente,19,5.4,2,No,No,Moderado
+28,Femenino,5,Empleado,6.4,Alta,4.3,Ocasional,18,6.6,0,No,No,Sin riesgo
+33,Femenino,1,Desempleado,4.5,Media,6.7,Ninguno,18,7.1,1,Si,No,Moderado
+20,Femenino,2,Independiente,5.4,Media,3.4,Ninguno,13,8.5,1,No,No,Sin riesgo
+34,Masculino,3,Independiente,7.2,Baja,3.8,Ninguno,22,6.7,2,No,Si,Sin riesgo
+33,Femenino,3,Empleado,6.6,Baja,2.7,Ocasional,17,5.0,2,No,No,Sin riesgo
+27,Masculino,2,Estudiante,6.9,Baja,3.7,Frecuente,27,5.3,3,Si,Si,Alto
+31,Femenino,1,Empleado,8.2,Baja,10.0,Ninguno,18,3.1,3,No,No,Alto
+27,Femenino,1,Estudiante,5.3,Media,4.6,Ninguno,12,9.7,2,No,No,Sin riesgo
+22,Masculino,6,Empleado,6.5,Media,7.7,Ninguno,7,4.8,0,No,Si,Sin riesgo
+32,Masculino,2,Estudiante,7.0,Alta,4.3,Ninguno,18,8.1,2,No,Si,Sin riesgo
+22,Masculino,4,Empleado,5.9,Alta,8.5,Ninguno,10,6.6,3,Si,Si,Sin riesgo
+23,Femenino,2,Estudiante,8.7,Baja,3.8,Ninguno,10,6.7,2,No,Si,Sin riesgo
+27,Femenino,5,Estudiante,8.0,Baja,6.6,Ninguno,23,5.7,3,Si,No,Alto
+33,Femenino,1,Estudiante,7.2,Alta,6.6,Ninguno,7,4.3,5,Si,No,Moderado
+24,Femenino,1,Empleado,9.1,Alta,12.6,Frecuente,29,3.9,1,No,No,Alto
+26,Masculino,5,Independiente,4.9,Alta,8.1,Ninguno,20,9.8,2,No,No,Sin riesgo
+18,Femenino,5,Estudiante,6.8,Baja,5.0,Ninguno,19,6.3,1,No,No,Sin riesgo
+20,Femenino,2,Independiente,7.3,Baja,8.3,Ocasional,12,8.5,1,Si,No,Sin riesgo
+19,Masculino,2,Independiente,5.6,Baja,12.1,Frecuente,24,9.0,0,Si,No,Alto
+19,Femenino,2,Estudiante,7.2,Alta,2.3,Ninguno,19,5.1,0,No,No,Sin riesgo
+33,Femenino,2,Empleado,5.4,Media,4.3,Ninguno,14,6.9,0,No,No,Sin riesgo
+33,Femenino,1,Empleado,7.7,Media,5.9,Ocasional,20,6.1,2,Si,No,Moderado
+32,Femenino,5,Estudiante,8.2,Media,5.4,Ninguno,7,3.5,0,No,Si,Sin riesgo
+19,Masculino,2,Empleado,7.2,Baja,5.6,Ocasional,8,5.6,1,Si,No,Sin riesgo
+19,Masculino,3,Estudiante,4.4,Media,3.1,Ninguno,11,7.3,1,No,No,Sin riesgo
+23,Masculino,1,Independiente,5.5,Baja,10.2,Ninguno,21,4.9,1,Si,No,Moderado
+28,Femenino,1,Desempleado,7.5,Media,2.8,Ninguno,19,5.3,3,No,Si,Sin riesgo
+24,Masculino,3,Independiente,6.8,Media,6.0,Ocasional,26,5.6,1,No,No,Moderado
+26,Masculino,2,Empleado,3.3,Media,9.2,Ninguno,13,10.0,0,No,No,Sin riesgo
+21,Femenino,3,Empleado,8.4,Baja,6.4,Ninguno,23,2.0,5,No,Si,Alto
+31,Masculino,1,Desempleado,7.0,Alta,4.0,Ninguno,18,7.1,3,No,No,Sin riesgo
+23,Femenino,5,Estudiante,5.7,Media,3.0,Ocasional,12,5.4,2,No,No,Sin riesgo
+19,Masculino,3,Estudiante,8.1,Baja,5.9,Ninguno,22,4.6,2,No,Si,Moderado
+31,Masculino,4,Empleado,5.9,Baja,4.5,Ocasional,19,5.4,0,No,No,Moderado
+34,Femenino,1,Estudiante,5.9,Media,7.0,Ocasional,15,7.5,2,No,Si,Sin riesgo
+18,Femenino,2,Estudiante,7.3,Baja,2.9,Ninguno,19,7.6,0,Si,No,Sin riesgo
+25,Femenino,2,Estudiante,9.1,Baja,8.6,Frecuente,18,6.4,1,Si,Si,Moderado
+32,Masculino,3,Empleado,8.9,Baja,6.8,Frecuente,18,8.4,0,Si,Si,Sin riesgo
+30,Femenino,2,Estudiante,7.3,Baja,7.0,Ninguno,16,8.8,2,No,No,Sin riesgo
+33,Masculino,1,Estudiante,7.4,Media,10.2,Ninguno,10,7.8,0,Si,No,Sin riesgo
+25,Femenino,2,Estudiante,7.8,Media,5.4,Ninguno,20,4.8,0,No,No,Sin riesgo
+24,Femenino,2,Estudiante,5.2,Baja,4.6,Ninguno,13,7.1,0,No,No,Sin riesgo
+30,Masculino,2,Independiente,7.6,Media,5.1,Ninguno,12,7.1,2,Si,No,Sin riesgo
+20,Masculino,1,Estudiante,5.8,Baja,6.0,Frecuente,17,4.2,0,No,No,Moderado
+22,Masculino,2,Empleado,7.2,Baja,6.3,Ocasional,24,2.5,1,No,No,Moderado
+28,Femenino,3,Independiente,6.5,Baja,4.3,Ninguno,20,1.5,1,Si,No,Alto
+30,Femenino,2,Estudiante,7.5,Alta,1.2,Ninguno,15,6.2,2,No,No,Sin riesgo
+20,Femenino,2,Independiente,7.0,Alta,5.0,Ninguno,15,6.7,0,Si,No,Sin riesgo
+27,Masculino,3,Empleado,3.0,Media,7.4,Ninguno,23,3.4,4,No,No,Alto
+24,Masculino,4,Empleado,7.0,Baja,6.9,Ninguno,2,8.3,1,No,Si,Sin riesgo
+27,Femenino,2,Estudiante,7.6,Baja,9.6,Frecuente,25,6.3,0,Si,Si,Moderado
+35,Masculino,3,Estudiante,7.4,Baja,11.6,Ocasional,6,9.0,0,Si,No,Sin riesgo
+19,Femenino,5,Desempleado,6.7,Alta,8.5,Ninguno,9,6.8,0,No,No,Sin riesgo
+35,Masculino,3,Independiente,8.9,Baja,10.1,Ocasional,15,3.7,1,No,No,Moderado
+26,Masculino,5,Desempleado,7.2,Alta,8.5,Ninguno,34,7.0,0,Si,No,Moderado
+31,Masculino,4,Desempleado,7.4,Media,10.9,Ocasional,31,7.5,3,No,No,Alto
+25,Femenino,1,Estudiante,8.2,Media,11.3,Ninguno,24,4.8,1,No,No,Sin riesgo
+23,Masculino,2,Independiente,7.3,Alta,9.0,Ninguno,21,2.8,0,No,No,Sin riesgo
+31,Femenino,3,Empleado,5.6,Baja,8.3,Ocasional,6,6.2,1,Si,No,Sin riesgo
+30,Masculino,6,Independiente,3.6,Media,6.0,Ninguno,20,3.8,0,Si,Si,Moderado
+20,Femenino,2,Estudiante,6.2,Baja,6.4,Ninguno,15,8.5,0,No,Si,Sin riesgo
+30,Masculino,1,Estudiante,7.8,Alta,5.6,Ninguno,13,5.1,1,Si,No,Sin riesgo
+31,Femenino,3,Independiente,6.3,Media,8.1,Ocasional,20,9.8,0,Si,No,Sin riesgo
+24,Femenino,1,Independiente,7.8,Baja,4.6,Ocasional,16,1.3,0,Si,No,Moderado
+34,Masculino,4,Empleado,7.0,Alta,6.0,Ninguno,25,6.3,4,Si,No,Moderado
+29,Masculino,3,Estudiante,8.5,Baja,1.0,Ninguno,5,9.1,2,No,Si,Sin riesgo
+24,Femenino,3,Estudiante,6.4,Baja,11.0,Ocasional,20,4.0,4,No,No,Alto
+18,Masculino,4,Desempleado,7.4,Alta,5.9,Ninguno,13,5.6,0,No,No,Sin riesgo
+30,Femenino,3,Empleado,7.5,Media,7.7,Ninguno,16,5.1,3,Si,No,Moderado
+21,Femenino,3,Empleado,8.8,Alta,10.3,Ocasional,21,4.5,1,No,No,Moderado
+31,Femenino,4,Empleado,4.6,Media,7.3,Ninguno,11,6.5,0,No,No,Sin riesgo
+27,Femenino,4,Empleado,6.2,Media,10.3,Ocasional,20,3.2,3,No,Si,Moderado
+26,Femenino,4,Empleado,7.9,Baja,3.3,Ninguno,18,5.8,0,No,No,Sin riesgo
+20,Femenino,1,Empleado,8.8,Baja,12.7,Ocasional,14,7.1,1,No,Si,Sin riesgo
+30,Femenino,3,Independiente,7.1,Alta,9.3,Ninguno,16,5.5,3,Si,Si,Moderado
+20,Femenino,1,Desempleado,6.4,Baja,7.0,Ninguno,18,3.8,2,No,No,Moderado
+25,Femenino,4,Desempleado,7.8,Media,10.2,Ninguno,14,8.3,1,No,Si,Sin riesgo
+33,Masculino,3,Empleado,7.9,Baja,3.5,Frecuente,19,7.6,1,Si,No,Moderado
+34,Masculino,2,Empleado,6.3,Baja,5.7,Frecuente,17,3.7,0,No,No,Moderado
+35,Femenino,1,Independiente,7.2,Media,10.3,Ocasional,15,3.2,5,Si,No,Alto
+35,Femenino,2,Independiente,8.3,Alta,1.6,Ninguno,30,3.9,0,No,No,Moderado
+28,Masculino,3,Empleado,9.3,Media,8.0,Ninguno,22,7.2,0,No,No,Sin riesgo
+21,Masculino,1,Empleado,7.8,Alta,7.9,Ocasional,16,6.6,0,No,No,Sin riesgo
+33,Masculino,1,Independiente,6.9,Baja,11.6,Ocasional,20,7.7,4,No,No,Alto
+32,Masculino,4,Empleado,6.7,Media,2.4,Ninguno,12,5.3,2,No,No,Sin riesgo
+35,Masculino,4,Independiente,7.5,Baja,10.7,Frecuente,16,4.0,1,No,No,Moderado
+29,Masculino,1,Estudiante,6.6,Media,5.0,Ninguno,17,8.0,4,No,No,Sin riesgo
+20,Femenino,2,Empleado,7.0,Baja,5.3,Ninguno,10,4.8,0,No,Si,Sin riesgo
+27,Femenino,6,Empleado,5.4,Media,3.3,Frecuente,22,6.4,3,No,Si,Moderado
+26,Femenino,3,Estudiante,8.5,Baja,3.7,Ninguno,15,2.6,0,No,No,Sin riesgo
+33,Femenino,3,Independiente,5.3,Alta,7.5,Ninguno,17,4.7,1,No,Si,Sin riesgo
+25,Masculino,2,Empleado,6.2,Alta,3.6,Ninguno,15,8.2,0,Si,No,Sin riesgo
+23,Masculino,2,Estudiante,6.9,Alta,8.4,Frecuente,40,4.4,5,No,No,Alto
+19,Masculino,1,Independiente,9.4,Baja,4.8,Ninguno,14,7.8,4,No,No,Sin riesgo
+33,Femenino,3,Independiente,6.3,Alta,3.3,Ocasional,5,0.9,2,No,No,Moderado
+31,Femenino,1,Independiente,5.9,Baja,5.1,Ninguno,8,4.8,0,No,Si,Sin riesgo
+18,Femenino,1,Estudiante,6.1,Baja,7.4,Ninguno,24,5.6,0,No,No,Sin riesgo
+25,Masculino,3,Independiente,9.0,Baja,5.8,Ninguno,28,9.8,1,No,No,Sin riesgo
+26,Femenino,5,Empleado,3.1,Baja,6.6,Ninguno,14,3.4,1,No,No,Alto
+26,Femenino,4,Empleado,5.5,Media,8.3,Ninguno,28,7.5,0,Si,No,Moderado
+34,Masculino,2,Estudiante,10.0,Baja,9.3,Ninguno,24,8.3,2,No,Si,Moderado
+20,Masculino,2,Empleado,7.6,Baja,5.7,Ocasional,18,4.4,2,No,No,Moderado
+23,Masculino,2,Independiente,5.4,Media,3.8,Ninguno,17,5.2,4,No,Si,Sin riesgo
+21,Femenino,2,Empleado,6.7,Alta,6.7,Ocasional,20,6.3,1,No,Si,Sin riesgo
+22,Femenino,3,Empleado,6.9,Media,7.7,Ocasional,25,2.7,1,Si,No,Alto
+34,Femenino,2,Independiente,7.9,Media,2.7,Ninguno,22,5.0,1,No,No,Sin riesgo
+34,Femenino,3,Empleado,9.2,Baja,4.2,Ninguno,14,8.8,0,No,No,Sin riesgo
+18,Masculino,5,Estudiante,7.3,Alta,4.6,Ninguno,18,7.1,2,No,No,Sin riesgo
+29,Femenino,6,Desempleado,6.1,Baja,6.0,Ninguno,33,5.7,2,No,No,Alto
+22,Femenino,1,Independiente,7.8,Baja,4.5,Ninguno,21,6.2,0,No,No,Sin riesgo
+21,Masculino,2,Desempleado,5.9,Baja,8.3,Ninguno,25,7.3,1,No,Si,Moderado
+23,Femenino,1,Desempleado,5.5,Media,2.3,Ninguno,23,7.7,3,Si,No,Moderado
+21,Femenino,2,Desempleado,4.5,Baja,2.4,Ninguno,21,4.8,1,Si,Si,Alto
+26,Femenino,2,Independiente,4.8,Media,5.6,Frecuente,20,9.4,1,No,No,Sin riesgo
+35,Femenino,1,Empleado,5.6,Baja,6.0,Ninguno,25,8.9,2,Si,No,Moderado
+28,Femenino,4,Estudiante,5.3,Media,2.7,Ninguno,24,7.5,1,Si,No,Moderado
+31,Masculino,2,Empleado,7.2,Media,4.9,Ninguno,21,4.1,0,Si,Si,Sin riesgo
+26,Masculino,5,Independiente,5.2,Baja,5.5,Ocasional,14,3.8,3,No,No,Moderado
+18,Femenino,1,Empleado,3.0,Media,5.5,Ninguno,22,5.3,4,No,Si,Alto
+19,Femenino,1,Independiente,5.4,Media,6.9,Ninguno,19,6.1,0,Si,Si,Sin riesgo
+22,Femenino,2,Estudiante,6.2,Media,4.8,Ocasional,17,2.1,0,No,No,Moderado
+22,Masculino,1,Estudiante,6.0,Baja,10.3,Ninguno,38,7.1,2,No,No,Alto
+33,Masculino,2,Empleado,8.8,Media,7.8,Ninguno,8,8.8,2,No,No,Sin riesgo
+33,Masculino,6,Empleado,6.0,Baja,4.4,Ninguno,26,7.3,1,Si,No,Moderado
+33,Femenino,1,Estudiante,7.9,Baja,6.7,Ocasional,13,4.5,1,No,No,Sin riesgo
+29,Femenino,1,Estudiante,6.8,Baja,6.8,Frecuente,20,4.3,2,Si,No,Alto
+28,Femenino,3,Independiente,6.7,Media,9.7,Ocasional,37,6.7,1,No,No,Alto
+29,Femenino,2,Empleado,5.7,Baja,4.9,Ninguno,12,5.7,0,Si,No,Sin riesgo
+25,Femenino,3,Estudiante,6.7,Media,8.5,Ninguno,14,7.0,0,No,Si,Sin riesgo
+30,Masculino,2,Estudiante,5.8,Baja,6.6,Ninguno,19,7.3,1,Si,No,Moderado
+32,Femenino,4,Empleado,7.0,Media,10.4,Ocasional,13,8.4,4,No,No,Sin riesgo
+31,Masculino,1,Estudiante,6.5,Baja,9.9,Frecuente,25,3.5,1,Si,Si,Alto
+29,Masculino,2,Independiente,5.6,Media,7.0,Ocasional,15,6.5,1,No,No,Sin riesgo
+19,Masculino,3,Independiente,8.1,Alta,5.8,Ninguno,24,5.2,4,No,No,Moderado
+31,Femenino,4,Estudiante,7.4,Baja,7.8,Ocasional,10,5.8,1,Si,No,Sin riesgo
+24,Masculino,2,Empleado,6.2,Baja,6.0,Frecuente,6,7.9,1,No,No,Sin riesgo
+31,Femenino,3,Estudiante,7.0,Media,10.9,Ocasional,17,8.1,0,No,No,Sin riesgo
+27,Femenino,1,Estudiante,6.7,Alta,6.7,Ocasional,8,9.1,2,Si,No,Sin riesgo
+33,Femenino,1,Desempleado,5.7,Alta,5.4,Ninguno,30,6.9,2,Si,No,Moderado
+24,Femenino,1,Empleado,6.9,Baja,5.3,Ocasional,8,5.8,3,No,No,Sin riesgo
+34,Masculino,3,Desempleado,6.0,Media,3.3,Ninguno,12,5.4,1,Si,No,Sin riesgo
+33,Masculino,2,Estudiante,5.6,Baja,7.9,Ninguno,22,2.2,1,No,No,Alto
+23,Masculino,3,Estudiante,4.7,Baja,4.4,Ocasional,15,8.9,0,No,Si,Sin riesgo
+26,Femenino,1,Empleado,6.3,Media,9.4,Frecuente,8,5.3,4,No,Si,Moderado
+27,Femenino,4,Empleado,7.5,Media,3.1,Ocasional,33,7.1,0,No,No,Sin riesgo
+31,Masculino,4,Desempleado,5.9,Media,6.8,Ninguno,12,7.5,2,No,No,Sin riesgo
+30,Femenino,1,Estudiante,10.0,Alta,9.5,Ninguno,18,3.3,2,No,No,Sin riesgo
+33,Masculino,1,Independiente,8.0,Baja,1.0,Ninguno,18,4.0,0,No,Si,Sin riesgo
+24,Masculino,1,Independiente,8.5,Media,11.7,Ocasional,24,9.4,1,No,Si,Sin riesgo
+27,Masculino,4,Empleado,7.8,Baja,5.4,Ocasional,22,6.6,0,Si,Si,Moderado
+25,Masculino,2,Estudiante,9.2,Baja,6.9,Frecuente,13,4.7,1,No,No,Moderado
+34,Femenino,3,Empleado,5.8,Baja,8.0,Ninguno,17,5.7,5,No,No,Alto
+23,Femenino,2,Estudiante,3.5,Alta,8.4,Ninguno,17,8.4,1,No,No,Moderado
+28,Femenino,4,Independiente,6.2,Media,7.2,Ocasional,24,8.1,5,No,No,Alto
+20,Femenino,2,Empleado,7.5,Baja,9.1,Ninguno,11,2.8,0,No,Si,Sin riesgo
+33,Femenino,3,Desempleado,7.0,Media,7.8,Frecuente,33,9.6,1,No,No,Moderado
+24,Masculino,6,Empleado,7.2,Alta,11.1,Ninguno,14,8.1,4,No,No,Sin riesgo
+24,Femenino,1,Empleado,8.5,Alta,7.9,Ninguno,19,5.7,3,Si,No,Moderado
+28,Masculino,4,Independiente,7.3,Media,11.6,Ninguno,11,3.4,1,No,No,Sin riesgo
+26,Masculino,1,Empleado,7.8,Baja,8.8,Frecuente,10,8.3,2,Si,No,Sin riesgo
+33,Masculino,2,Desempleado,5.6,Media,1.8,Ocasional,13,7.0,3,No,No,Moderado
+27,Femenino,4,Estudiante,5.4,Alta,13.3,Ocasional,12,2.8,2,No,No,Moderado
+27,Masculino,3,Desempleado,8.9,Alta,5.0,Ocasional,16,5.5,2,No,Si,Sin riesgo
+19,Femenino,3,Independiente,6.9,Alta,10.4,Ninguno,12,10.0,0,No,No,Sin riesgo
+18,Femenino,2,Independiente,6.0,Media,6.6,Ocasional,24,6.0,0,No,No,Sin riesgo
+25,Femenino,2,Empleado,6.0,Baja,9.3,Frecuente,14,4.4,2,No,Si,Moderado
+35,Femenino,2,Independiente,6.0,Media,4.7,Ninguno,13,3.8,1,No,No,Moderado
+34,Femenino,3,Estudiante,5.9,Baja,8.1,Ocasional,16,9.9,0,No,No,Sin riesgo
+29,Femenino,2,Independiente,5.1,Baja,5.8,Ninguno,26,7.9,0,No,No,Sin riesgo
+29,Masculino,2,Estudiante,4.8,Media,10.6,Ninguno,21,9.1,1,Si,No,Moderado
+25,Femenino,2,Estudiante,6.5,Media,7.6,Ninguno,18,6.5,1,Si,No,Sin riesgo
+21,Femenino,2,Empleado,6.0,Alta,8.9,Ocasional,9,8.8,1,Si,No,Sin riesgo
+18,Masculino,2,Estudiante,8.2,Alta,1.0,Ninguno,11,4.1,1,No,No,Sin riesgo
+24,Masculino,1,Estudiante,7.2,Alta,6.3,Ninguno,10,6.4,0,Si,No,Sin riesgo
+23,Masculino,4,Independiente,7.1,Media,7.6,Ocasional,28,6.6,3,No,No,Moderado
+21,Femenino,3,Estudiante,5.8,Media,7.1,Ninguno,23,9.0,2,No,No,Moderado
+22,Masculino,1,Independiente,6.6,Baja,9.0,Ocasional,13,6.7,0,No,Si,Sin riesgo
+18,Masculino,3,Estudiante,7.3,Media,5.5,Frecuente,15,4.6,1,No,No,Sin riesgo
+28,Femenino,4,Independiente,7.7,Baja,6.6,Ninguno,13,6.1,1,No,No,Sin riesgo
+34,Femenino,2,Independiente,6.7,Baja,9.6,Ninguno,13,2.3,2,No,No,Moderado
+30,Masculino,1,Empleado,8.2,Baja,1.0,Frecuente,22,0.9,2,No,No,Alto
+26,Femenino,1,Independiente,6.8,Alta,8.0,Ninguno,17,7.8,2,Si,No,Sin riesgo
+25,Femenino,1,Desempleado,7.8,Media,5.6,Ninguno,34,5.2,2,No,No,Alto
+23,Masculino,4,Independiente,6.2,Alta,4.1,Frecuente,28,5.4,0,Si,Si,Alto
+20,Masculino,6,Estudiante,4.4,Alta,7.4,Frecuente,28,7.8,1,Si,No,Alto
+28,Masculino,1,Empleado,7.1,Alta,9.7,Ocasional,24,9.1,0,No,No,Sin riesgo
+28,Masculino,3,Independiente,7.7,Baja,9.2,Ninguno,16,7.2,1,No,No,Sin riesgo
+18,Masculino,1,Estudiante,7.5,Alta,6.1,Frecuente,23,10.0,1,No,No,Sin riesgo
+25,Femenino,3,Independiente,7.3,Alta,8.8,Ocasional,17,7.1,2,Si,No,Sin riesgo
+23,Femenino,4,Estudiante,6.3,Alta,8.8,Ocasional,30,6.7,0,No,No,Moderado
+21,Masculino,2,Independiente,5.8,Baja,6.3,Ocasional,22,6.5,2,Si,No,Moderado
+30,Femenino,1,Estudiante,7.5,Baja,4.7,Ocasional,21,3.2,1,No,No,Moderado
+27,Femenino,3,Estudiante,7.4,Alta,4.8,Ninguno,20,8.1,1,No,No,Sin riesgo
+29,Masculino,6,Desempleado,6.1,Baja,8.7,Ninguno,31,0.6,2,No,Si,Alto
+30,Masculino,2,Independiente,8.2,Baja,6.4,Ninguno,9,4.7,0,No,Si,Sin riesgo
+35,Femenino,1,Desempleado,5.7,Media,3.8,Ninguno,32,6.1,1,Si,No,Alto
+32,Femenino,1,Desempleado,6.0,Baja,2.1,Ninguno,18,4.3,1,Si,No,Moderado
+29,Masculino,3,Empleado,8.9,Baja,8.7,Ninguno,9,5.0,2,Si,No,Sin riesgo

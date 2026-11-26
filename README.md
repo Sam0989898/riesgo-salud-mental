@@ -14,6 +14,10 @@ riesgo-salud-mental/
 ├── data/dataset_sintetico.csv     # 1.200 registros simulados
 ├── src/generar_datos.py           # genera el dataset (semilla 42)
 ├── src/entrenar_modelos.py        # J48 (C4.5), Random Forest, Naive Bayes
+├── src/exportar_modelo_web.py     # guarda los modelos entrenados y los exporta a JSON
+├── src/predecir_ejemplo.py        # carga el modelo y clasifica un perfil
+├── models/                        # modelos entrenados (joblib): J48, Random Forest, Naive Bayes
+├── docs/index.html + modelos.json # página web que ejecuta los modelos en el navegador
 ├── results/metricas.csv           # exactitud, precisión, exhaustividad, F1
 ├── results/matrices_confusion.txt
 └── requirements.txt
@@ -25,8 +29,14 @@ riesgo-salud-mental/
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 python src/generar_datos.py
-python src/entrenar_modelos.py
+python src/entrenar_modelos.py      # métricas con validación cruzada
+python src/exportar_modelo_web.py   # guarda models/ y docs/modelos.json
+python src/predecir_ejemplo.py      # prueba el modelo entrenado
 ```
+
+## Página web del modelo
+
+Abre `docs/index.html` publicada con GitHub Pages (Settings → Pages → rama `main`, carpeta `/docs`). Los modelos corren en el navegador.
 
 ## Metodología
 

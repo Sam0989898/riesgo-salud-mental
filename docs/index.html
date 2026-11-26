@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Modelo de Riesgo de Salud Mental</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+/* Dirección: panel clínico sobrio. Formulario a la izquierda, resultado fijo a la derecha. Color de riesgo separado del acento. */
+:root {
+  --bg: #f3f5f9;
+  --surface: #ffffff;
+  --ink: #15202e;
+  --muted: #586579;
+  --line: #d9e0ea;
+  --accent: #2c47b3;
+  --accent-soft: #e6ebfb;
+  --on-accent: #ffffff;
+  --ok: #1d8a5a;
+  --mid: #b27312;
+  --hi: #bb3a2a;
+  --ok-soft: #e3f4ec;
+  --mid-soft: #fbf0da;
+  --hi-soft: #fbe6e2;
+  --font-body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-num: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0e1520; --surface: #162030; --ink: #e8edf5; --muted: #9aa6ba; --line: #2a3749;
+    --accent: #8ea2ff; --accent-soft: #223056; --on-accent: #0e1520;
+    --ok: #4cc38a; --mid: #e3ab3f; --hi: #f27a6c;
+    --ok-soft: #153327; --mid-soft: #3a2d12; --hi-soft: #3d1b18;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0e1520; --surface: #162030; --ink: #e8edf5; --muted: #9aa6ba; --line: #2a3749;
+  --accent: #8ea2ff; --accent-soft: #223056; --on-accent: #0e1520;
+  --ok: #4cc38a; --mid: #e3ab3f; --hi: #f27a6c;
+  --ok-soft: #153327; --mid-soft: #3a2d12; --hi-soft: #3d1b18;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--font-body); font-size: 16px; line-height: 1.5; }
+h1, h2, h3 { margin: 0; font-weight: 600; text-wrap: balance; letter-spacing: -0.01em; }
+p { margin: 0; }
+:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; border-radius: 6px; }
+
+.wrap { max-width: 1120px; margin: 0 auto; padding: 28px 16px 56px; display: flex; flex-direction: column; gap: 20px; }
+header { display: flex; flex-direction: column; gap: 10px; }
+.eyebrow { font-size: 13px; color: var(--muted); }
+h1 { font-size: clamp(26px, 4vw, 36px); line-height: 1.15; }
+.lede { color: var(--muted); max-width: 62ch; }
+.aviso { display: flex; gap: 10px; align-items: flex-start; background: var(--mid-soft); color: var(--ink); border: 1px solid var(--mid); border-radius: 10px; padding: 10px 14px; font-size: 14px; }
+.aviso strong { color: var(--mid); white-space: nowrap; }
+
+.grid { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: 20px; align-items: start; }
+@media (max-width: 860px) { .grid { grid-template-columns: minmax(0, 1fr); } }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 20px; display: flex; flex-direction: column; gap: 18px; }
+.sticky { position: sticky; top: 16px; }
+@media (max-width: 860px) { .sticky { position: static; } }
+
+.card-head { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; }
+h2 { font-size: 18px; }
+h3 { font-size: 13px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); font-weight: 600; }
+
+.presets { display: flex; gap: 8px; flex-wrap: wrap; }
+button.preset { font: inherit; font-size: 14px; padding: 7px 12px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); cursor: pointer; }
+button.preset:hover { border-color: var(--accent); }
+button.preset[aria-pressed="true"] { background: var(--accent-soft); border-color: var(--accent); color: var(--accent); font-weight: 500; }
+
+.grupo { display: flex; flex-direction: column; gap: 14px; min-width: 0; }
+.grupo + .grupo { border-top: 1px solid var(--line); padding-top: 18px; }
+#resultado { display: flex; flex-direction: column; gap: 18px; }
+.campo { display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+.campo > label, .campo > .etq { font-size: 14px; font-weight: 500; display: flex; justify-content: space-between; gap: 12px; }
+.campo output { font-family: var(--font-num); font-size: 14px; color: var(--accent); font-variant-numeric: tabular-nums; }
+input[type="range"] { width: 100%; accent-color: var(--accent); margin: 4px 0; }
+select { font: inherit; font-size: 15px; padding: 9px 10px; border-radius: 8px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); width: 100%; }
+.seg { display: flex; border: 1px solid var(--line); border-radius: 9px; overflow: hidden; }
+.seg label { flex: 1; text-align: center; padding: 8px 6px; font-size: 14px; cursor: pointer; border-right: 1px solid var(--line); background: var(--surface); }
+.seg label:last-child { border-right: 0; }
+.seg input { position: absolute; opacity: 0; pointer-events: none; }
+.seg label:has(input:checked) { background: var(--accent); color: var(--on-accent); font-weight: 500; }
+.seg label:has(input:focus-visible) { outline: 3px solid var(--accent); outline-offset: -3px; }
+.pares { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px 16px; }
+@media (max-width: 520px) { .pares { grid-template-columns: minmax(0, 1fr); } }
+
+/* Resultado */
+.principal { border-radius: 12px; padding: 16px; display: flex; flex-direction: column; gap: 4px; border: 1px solid var(--line); border-left-width: 6px; transition: background-color .25s, border-color .25s; }
+.principal small { color: var(--muted); font-size: 13px; }
+.principal .nivel { font-size: 34px; font-weight: 600; line-height: 1.1; letter-spacing: -0.02em; }
+.principal .conf { font-size: 14px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.principal[data-nivel="Sin riesgo"] { background: var(--ok-soft); border-color: var(--ok); }
+.principal[data-nivel="Moderado"] { background: var(--mid-soft); border-color: var(--mid); }
+.principal[data-nivel="Alto"] { background: var(--hi-soft); border-color: var(--hi); }
+.principal[data-nivel="Sin riesgo"] .nivel { color: var(--ok); }
+.principal[data-nivel="Moderado"] .nivel { color: var(--mid); }
+.principal[data-nivel="Alto"] .nivel { color: var(--hi); }
+
+.barras { display: flex; flex-direction: column; gap: 10px; }
+.barra { display: grid; grid-template-columns: 86px minmax(0, 1fr) 84px; gap: 10px; align-items: center; font-size: 14px; }
+.barra .pista { height: 12px; background: var(--bg); border-radius: 999px; overflow: hidden; border: 1px solid var(--line); }
+.barra .relleno { height: 100%; border-radius: 999px; transition: width .3s ease; }
+.barra .val { font-family: var(--font-num); text-align: right; font-variant-numeric: tabular-nums; }
+.c-Sin-riesgo { background: var(--ok); }
+.c-Moderado { background: var(--mid); }
+.c-Alto { background: var(--hi); }
+
+.modelos { display: flex; flex-direction: column; gap: 0; }
+.fila-modelo { display: grid; grid-template-columns: 1fr auto; gap: 8px 12px; padding: 12px 0; border-top: 1px solid var(--line); align-items: center; }
+.fila-modelo:first-child { border-top: 0; padding-top: 0; }
+.fila-modelo .nombre { font-size: 14px; font-weight: 500; }
+.fila-modelo .nombre span { color: var(--muted); font-weight: 400; }
+.chip { font-size: 13px; font-weight: 500; padding: 3px 10px; border-radius: 999px; }
+.chip[data-nivel="Sin riesgo"] { background: var(--ok-soft); color: var(--ok); }
+.chip[data-nivel="Moderado"] { background: var(--mid-soft); color: var(--mid); }
+.chip[data-nivel="Alto"] { background: var(--hi-soft); color: var(--hi); }
+.apilada { grid-column: 1 / -1; display: flex; height: 8px; border-radius: 999px; overflow: hidden; background: var(--bg); }
+.apilada i { display: block; height: 100%; transition: width .3s ease; }
+
+.delta { font-family: var(--font-num); font-size: 12px; margin-left: 6px; color: var(--accent); }
+.mini { display: none; }
+@media (max-width: 860px) {
+  .mini { display: flex; align-items: center; justify-content: space-between; gap: 12px; position: sticky; top: 0; z-index: 20; margin: -28px -16px 0; padding: 10px 16px; background: var(--surface); border-bottom: 4px solid var(--line); font-size: 15px; transition: border-color .25s; }
+  .mini b { font-size: 18px; }
+  .mini span { font-family: var(--font-num); font-variant-numeric: tabular-nums; color: var(--muted); }
+  .mini[data-nivel="Sin riesgo"] { border-bottom-color: var(--ok); }
+  .mini[data-nivel="Moderado"] { border-bottom-color: var(--mid); }
+  .mini[data-nivel="Alto"] { border-bottom-color: var(--hi); }
+}
+
+/* Secciones inferiores */
+.dos { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; align-items: start; }
+@media (max-width: 860px) { .dos { grid-template-columns: minmax(0, 1fr); } }
+.imp { display: flex; flex-direction: column; gap: 8px; }
+.imp-fila { display: grid; grid-template-columns: 150px minmax(0, 1fr) 44px; gap: 10px; align-items: center; font-size: 14px; }
+@media (max-width: 520px) { .imp-fila { grid-template-columns: 112px minmax(0, 1fr) 40px; } }
+.imp-fila .pista { height: 10px; background: var(--bg); border-radius: 4px; overflow: hidden; }
+.imp-fila .relleno { height: 100%; background: var(--accent); border-radius: 4px; }
+.imp-fila .val { font-family: var(--font-num); text-align: right; color: var(--muted); font-variant-numeric: tabular-nums; }
+.tabla-wrap { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; font-size: 14px; }
+th, td { padding: 9px 10px; text-align: right; border-bottom: 1px solid var(--line); white-space: nowrap; font-variant-numeric: tabular-nums; }
+th:first-child, td:first-child { text-align: left; }
+th { font-weight: 500; color: var(--muted); font-size: 13px; }
+tr.mejor td { background: var(--accent-soft); font-weight: 500; }
+.nota { font-size: 13px; color: var(--muted); }
+footer { font-size: 13px; color: var(--muted); display: flex; flex-direction: column; gap: 4px; }
+footer a { color: var(--accent); }
+.estado { padding: 24px; text-align: center; color: var(--muted); }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="mini" id="mini" role="status" aria-label="Resultado actual"></div>
+  <header>
+    <p class="eyebrow">Minería de Datos · Fundación Universitaria Tecnológico Comfenalco</p>
+    <h1>Modelo de riesgo de salud mental</h1>
+    <p class="lede">Cambia el perfil de una persona simulada y mira cómo tres algoritmos clasifican su nivel de riesgo: sin riesgo, moderado o alto.</p>
+    <p class="aviso" role="note"><strong>Datos sintéticos.</strong><span>Es un ejercicio académico. El modelo no diagnostica ni reemplaza a un profesional de la salud mental.</span></p>
+  </header>
+
+  <div class="grid">
+    <section class="card" aria-labelledby="t-perfil">
+      <div class="card-head">
+        <h2 id="t-perfil">Perfil de la persona</h2>
+        <div class="presets" role="group" aria-label="Perfiles de ejemplo" id="presets"></div>
+      </div>
+      <form id="form" onsubmit="return false"></form>
+    </section>
+
+    <section class="card sticky" aria-labelledby="t-res">
+      <h2 id="t-res">Resultado</h2>
+      <div id="resultado" aria-live="polite"><p class="estado">Cargando los modelos…</p></div>
+    </section>
+  </div>
+
+  <div class="dos">
+    <section class="card" aria-labelledby="t-imp">
+      <h2 id="t-imp">Qué variables pesan más</h2>
+      <div class="imp" id="imp"></div>
+      <p class="nota">Importancia de cada variable en el Random Forest entrenado con los 1.200 registros simulados. La suma de las 13 es 100 %.</p>
+    </section>
+    <section class="card" aria-labelledby="t-met">
+      <h2 id="t-met">Desempeño medido</h2>
+      <div class="tabla-wrap">
+        <table>
+          <thead><tr><th>Modelo</th><th>Exactitud</th><th>F1</th><th>Detecta Alto</th></tr></thead>
+          <tbody>
+            <tr><td>J48 (árbol C4.5)</td><td>64,2 %</td><td>0,646</td><td>56,0 %</td></tr>
+            <tr class="mejor"><td>Random Forest</td><td>74,4 %</td><td>0,738</td><td>51,9 %</td></tr>
+            <tr><td>Naive Bayes</td><td>70,7 %</td><td>0,703</td><td>52,8 %</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="nota">Validación cruzada estratificada de 10 pliegues sobre 1.200 registros sintéticos. “Detecta Alto” es la proporción de casos de riesgo alto que el modelo identifica.</p>
+    </section>
+  </div>
+
+  <footer>
+    <p>Autor: Samuel Santiago Jiménez Acuña · Docente: Diana Paola Beetar Baraja.</p>
+    <p>Código y datos: <a href="https://github.com/Sam0989898/riesgo-salud-mental">github.com/Sam0989898/riesgo-salud-mental</a>. Los modelos se ejecutan en este navegador; ningún dato sale de la página.</p>
+  </footer>
+</div>
+
+<script>
+const MODELOS_INLINE = /*__MODELOS_INLINE__*/null;
+
+//<model-core>
+const CATS = ["sexo", "ocupacion", "actividad_fisica", "sustancias", "antecedentes_familiares", "atencion_previa"];
+const ORDEN = ["Sin riesgo", "Moderado", "Alto"];
+
+function vector(m, perfil) {
+  return m.features.map(function (n) {
+    const c = CATS.find(function (v) { return n.indexOf(v + "_") === 0; });
+    if (c) return perfil[c] === n.slice(c.length + 1) ? 1 : 0;
+    return Math.fround(Number(perfil[n]));
+  });
+}
+function probArbol(t, x) {
+  let n = 0;
+  while (t.l[n] !== -1) n = x[t.f[n]] <= t.t[n] ? t.l[n] : t.r[n];
+  return t.p[t.r[n]];
+}
+function probRF(m, x) {
+  const k = m.clases.length, acc = new Array(k).fill(0);
+  m.rf.forEach(function (t) { const p = probArbol(t, x); for (let i = 0; i < k; i++) acc[i] += p[i]; });
+  return acc.map(function (v) { return v / m.rf.length; });
+}
+function probNB(m, x) {
+  const k = m.clases.length, lp = [];
+  for (let c = 0; c < k; c++) {
+    let s = Math.log(m.nb.prior[c]);
+    for (let j = 0; j < x.length; j++) {
+      const v = m.nb.var[c][j], d = x[j] - m.nb.theta[c][j];
+      s += -0.5 * Math.log(2 * Math.PI * v) - (d * d) / (2 * v);
+    }
+    lp.push(s);
+  }
+  const mx = Math.max.apply(null, lp), e = lp.map(function (v) { return Math.exp(v - mx); });
+  const z = e.reduce(function (a, b) { return a + b; }, 0);
+  return e.map(function (v) { return v / z; });
+}
+function ordenar(m, p) { return ORDEN.map(function (c) { return p[m.clases.indexOf(c)]; }); }
+function predecir(m, perfil) {
+  const x = vector(m, perfil);
+  return { rf: ordenar(m, probRF(m, x)), j48: ordenar(m, probArbol(m.j48, x).slice()), nb: ordenar(m, probNB(m, x)) };
+}
+//</model-core>
+
+const CAMPOS = [
+  { titulo: "Datos básicos", pares: true, campos: [
+    { id: "edad", etq: "Edad", tipo: "rango", min: 18, max: 35, paso: 1, unidad: " años" },
+    { id: "sexo", etq: "Sexo", tipo: "seg", ops: [["Femenino", "Femenino"], ["Masculino", "Masculino"]] },
+    { id: "estrato", etq: "Estrato", tipo: "rango", min: 1, max: 6, paso: 1, unidad: "" },
+    { id: "ocupacion", etq: "Ocupación", tipo: "sel", ops: [["Estudiante", "Estudiante"], ["Empleado", "Empleado"], ["Independiente", "Independiente"], ["Desempleado", "Desempleado"]] }
+  ]},
+  { titulo: "Hábitos", campos: [
+    { id: "horas_sueno", etq: "Horas de sueño por noche", tipo: "rango", min: 3, max: 10, paso: 0.5, unidad: " h" },
+    { id: "pantalla_horas", etq: "Tiempo de pantalla por día", tipo: "rango", min: 1, max: 14, paso: 0.5, unidad: " h" },
+    { id: "actividad_fisica", etq: "Actividad física", tipo: "seg", ops: [["Baja", "Baja"], ["Media", "Media"], ["Alta", "Alta"]] },
+    { id: "sustancias", etq: "Consumo de sustancias", tipo: "seg", ops: [["Ninguno", "Ninguno"], ["Ocasional", "Ocasional"], ["Frecuente", "Frecuente"]] }
+  ]},
+  { titulo: "Contexto psicosocial", campos: [
+    { id: "estres_percibido", etq: "Estrés percibido (0 a 40)", tipo: "rango", min: 0, max: 40, paso: 1, unidad: "" },
+    { id: "apoyo_social", etq: "Apoyo social (0 a 10)", tipo: "rango", min: 0, max: 10, paso: 0.5, unidad: "" },
+    { id: "eventos_vitales", etq: "Eventos vitales recientes", tipo: "rango", min: 0, max: 5, paso: 1, unidad: "" }
+  ]},
+  { titulo: "Historial", pares: true, campos: [
+    { id: "antecedentes_familiares", etq: "Antecedentes familiares", tipo: "seg", ops: [["No", "No"], ["Si", "Sí"]] },
+    { id: "atencion_previa", etq: "Atención previa", tipo: "seg", ops: [["No", "No"], ["Si", "Sí"]] }
+  ]}
+];
+
+const PERFILES = {
+  "Estable": { edad: 24, sexo: "Femenino", estrato: 3, ocupacion: "Estudiante", horas_sueno: 8, pantalla_horas: 4, actividad_fisica: "Alta", sustancias: "Ninguno", estres_percibido: 9, apoyo_social: 8.5, eventos_vitales: 0, antecedentes_familiares: "No", atencion_previa: "No" },
+  "Intermedio": { edad: 27, sexo: "Masculino", estrato: 2, ocupacion: "Empleado", horas_sueno: 6.5, pantalla_horas: 7, actividad_fisica: "Media", sustancias: "Ocasional", estres_percibido: 20, apoyo_social: 5.5, eventos_vitales: 2, antecedentes_familiares: "No", atencion_previa: "No" },
+  "Carga alta": { edad: 30, sexo: "Masculino", estrato: 2, ocupacion: "Desempleado", horas_sueno: 4.5, pantalla_horas: 11, actividad_fisica: "Baja", sustancias: "Frecuente", estres_percibido: 32, apoyo_social: 2, eventos_vitales: 4, antecedentes_familiares: "Si", atencion_previa: "No" }
+};
+
+const ETQ_VAR = { estres_percibido: "Estrés percibido", apoyo_social: "Apoyo social", horas_sueno: "Horas de sueño", eventos_vitales: "Eventos vitales", pantalla_horas: "Tiempo de pantalla", edad: "Edad", sustancias: "Sustancias", ocupacion: "Ocupación", actividad_fisica: "Actividad física", estrato: "Estrato", sexo: "Sexo", antecedentes_familiares: "Antecedentes familiares", atencion_previa: "Atención previa" };
+
+let M = null;
+const perfil = Object.assign({}, PERFILES["Intermedio"]);
+const $ = function (id) { return document.getElementById(id); };
+const pct = function (v) { return Math.round(v * 100); };
+const fmt = function (v, paso) { return String(v).replace(".", ","); };
+
+function construirFormulario() {
+  const f = $("form");
+  f.innerHTML = CAMPOS.map(function (g, gi) {
+    const campos = g.campos.map(function (c) {
+      const id = "campo-" + c.id;
+      if (c.tipo === "rango") {
+        return '<div class="campo"><label for="' + id + '">' + c.etq + '<output id="out-' + c.id + '" for="' + id + '"></output></label>' +
+          '<input type="range" id="' + id + '" data-var="' + c.id + '" min="' + c.min + '" max="' + c.max + '" step="' + c.paso + '"></div>';
+      }
+      if (c.tipo === "sel") {
+        return '<div class="campo"><label for="' + id + '">' + c.etq + '</label><select id="' + id + '" data-var="' + c.id + '">' +
+          c.ops.map(function (o) { return '<option value="' + o[0] + '">' + o[1] + '</option>'; }).join("") + '</select></div>';
+      }
+      return '<div class="campo" role="radiogroup" aria-labelledby="' + id + '-t"><span class="etq" id="' + id + '-t">' + c.etq + '</span><div class="seg">' +
+        c.ops.map(function (o, i) {
+          return '<label><input type="radio" name="' + c.id + '" id="' + id + '-' + i + '" data-var="' + c.id + '" value="' + o[0] + '">' + o[1] + '</label>';
+        }).join("") + '</div></div>';
+    }).join("");
+    return '<div class="grupo" role="group" aria-labelledby="g' + gi + '"><h3 id="g' + gi + '">' + g.titulo + '</h3>' + (g.pares ? '<div class="pares">' + campos + '</div>' : campos) + '</div>';
+  }).join("");
+
+  f.addEventListener("input", function (e) {
+    const v = e.target.getAttribute("data-var");
+    if (!v) return;
+    perfil[v] = e.target.type === "range" ? Number(e.target.value) : e.target.value;
+    marcarPreset(null);
+    sincronizarSalidas();
+    pintar();
+  });
+
+  $("presets").innerHTML = Object.keys(PERFILES).map(function (n) {
+    return '<button type="button" class="preset" data-preset="' + n + '" aria-pressed="false">' + n + '</button>';
+  }).join("");
+  $("presets").addEventListener("click", function (e) {
+    const n = e.target.getAttribute("data-preset");
+    if (!n) return;
+    Object.assign(perfil, PERFILES[n]);
+    aplicarPerfil();
+    marcarPreset(n);
+    pintar();
+  });
+}
+
+function aplicarPerfil() {
+  document.querySelectorAll("[data-var]").forEach(function (el) {
+    const v = el.getAttribute("data-var");
+    if (el.type === "radio") el.checked = String(perfil[v]) === el.value;
+    else el.value = perfil[v];
+  });
+  sincronizarSalidas();
+}
+function sincronizarSalidas() {
+  CAMPOS.forEach(function (g) { g.campos.forEach(function (c) {
+    if (c.tipo === "rango") $("out-" + c.id).textContent = fmt(perfil[c.id]) + c.unidad;
+  }); });
+}
+function marcarPreset(n) {
+  document.querySelectorAll(".preset").forEach(function (b) { b.setAttribute("aria-pressed", String(b.getAttribute("data-preset") === n)); });
+}
+
+function nivelDe(p) { return ORDEN[p.indexOf(Math.max.apply(null, p))]; }
+function apilada(p) { return '<div class="apilada" aria-hidden="true">' + ORDEN.map(function (c, i) { return '<i class="c-' + c.replace(" ", "-") + '" style="width:' + (p[i] * 100) + '%"></i>'; }).join("") + '</div>'; }
+
+let previo = null;
+function dl(n) { return n ? '<span class="delta">' + (n > 0 ? "+" : "") + n + '</span>' : ""; }
+function pintar() {
+  if (!M) return;
+  const r = predecir(M, perfil);
+  const d = previo ? r.rf.map(function (v, i) { return pct(v) - pct(previo[i]); }) : [0, 0, 0];
+  previo = r.rf;
+  const nivel = nivelDe(r.rf), conf = Math.max.apply(null, r.rf);
+  const mini = $("mini");
+  mini.setAttribute("data-nivel", nivel);
+  mini.innerHTML = 'Riesgo estimado: <b>' + nivel + '</b><span>' + pct(conf) + ' %</span>';
+  const otros = [["Random Forest", "mejor en validación", r.rf], ["J48 (árbol de decisión)", "", r.j48], ["Naive Bayes", "", r.nb]];
+  $("resultado").innerHTML =
+    '<div class="principal" data-nivel="' + nivel + '"><small>Nivel de riesgo estimado por el Random Forest</small>' +
+    '<span class="nivel">' + nivel + '</span><span class="conf">' + pct(conf) + ' % de probabilidad</span></div>' +
+    '<div class="barras">' + ORDEN.map(function (c, i) {
+      return '<div class="barra"><span>' + c + '</span><div class="pista"><div class="relleno c-' + c.replace(" ", "-") + '" style="width:' + (r.rf[i] * 100) + '%"></div></div><span class="val">' + pct(r.rf[i]) + ' %' + dl(d[i]) + '</span></div>';
+    }).join("") + '</div>' +
+    '<div><h3 style="margin-bottom:12px">Los tres modelos con este perfil</h3><div class="modelos">' +
+    otros.map(function (o) {
+      const n = nivelDe(o[2]);
+      return '<div class="fila-modelo"><span class="nombre">' + o[0] + (o[1] ? ' <span>· ' + o[1] + '</span>' : '') + '</span><span class="chip" data-nivel="' + n + '">' + n + ' · ' + pct(Math.max.apply(null, o[2])) + ' %</span>' + apilada(o[2]) + '</div>';
+    }).join("") + '</div></div>';
+}
+
+function pintarImportancia() {
+  const ent = Object.keys(M.importancia).map(function (k) { return [k, M.importancia[k]]; }).sort(function (a, b) { return b[1] - a[1]; });
+  const mx = ent[0][1];
+  $("imp").innerHTML = ent.map(function (e) {
+    return '<div class="imp-fila"><span>' + (ETQ_VAR[e[0]] || e[0]) + '</span><div class="pista"><div class="relleno" style="width:' + (e[1] / mx * 100) + '%"></div></div><span class="val">' + fmt((e[1] * 100).toFixed(1)) + '</span></div>';
+  }).join("");
+}
+
+function iniciar(modelos) {
+  M = modelos;
+  aplicarPerfil();
+  marcarPreset("Intermedio");
+  pintar();
+  pintarImportancia();
+}
+
+construirFormulario();
+aplicarPerfil();
+marcarPreset("Intermedio");
+if (MODELOS_INLINE) {
+  iniciar(MODELOS_INLINE);
+} else {
+  fetch("modelos.json").then(function (r) { return r.json(); }).then(iniciar).catch(function () {
+    $("resultado").innerHTML = '<p class="estado">No se pudieron cargar los modelos. Abre la página desde el enlace publicado o usa la versión de un solo archivo.</p>';
+  });
+}
+</script>
+</body>
+</html>
